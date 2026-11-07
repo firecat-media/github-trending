@@ -1,0 +1,47 @@
+name: Trending verzamelen
+
+on:
+  schedule:
+    # 04:07 UTC = 05:07 in de winter, 06:07 in de zomer (NL)
+    - cron: "7 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: trending
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Benodigdheden installeren
+        run: pip install beautifulsoup4==4.12.3
+
+      - name: Trending lezen en sterren bijwerken
+        run: python scripts/collect.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Data opslaan
+        if: always()
+        run: |
+          git config user.name "trending-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "Geen wijzigingen"
+          else
+            git commit -m "Trending $(TZ=Europe/Amsterdam date +%F)"
+            git pull --rebase
+            git push
+          fi

@@ -1,0 +1,427 @@
+<title>Firecat Trending Radar</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Familjen+Grotesk:wght@500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: één leeskolom; vaste filterbalk; elke repo is een rij met rechts een meterkolom (sterren, groei, verloop). */
+:root {
+  --bg: #f4f6f9;
+  --surface: #ffffff;
+  --ink: #131923;
+  --muted: #586272;
+  --line: #dde2ea;
+  --star: #9a6200;
+  --star-soft: #fbf0d9;
+  --ai: #0a7480;
+  --ai-soft: #e1f2f4;
+  --media: #8a3aa6;
+  --media-soft: #f3e7f8;
+  --warn: #a9401b;
+  --warn-soft: #fbe9e1;
+  --ok: #2c7a3f;
+  --focus: #2f6fd6;
+  --f-display: "Familjen Grotesk", "Segoe UI", system-ui, sans-serif;
+  --f-body: "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --r: 10px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e1218; --surface: #151b23; --ink: #e7ebf1; --muted: #98a2b2; --line: #252d39;
+    --star: #f0b43c; --star-soft: #33270e; --ai: #56c8d4; --ai-soft: #0f2f36;
+    --media: #c78ee0; --media-soft: #2a1c35; --warn: #f08b63; --warn-soft: #3a1f15;
+    --ok: #6fcf86; --focus: #7aa7ff; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e1218; --surface: #151b23; --ink: #e7ebf1; --muted: #98a2b2; --line: #252d39;
+  --star: #f0b43c; --star-soft: #33270e; --ai: #56c8d4; --ai-soft: #0f2f36;
+  --media: #c78ee0; --media-soft: #2a1c35; --warn: #f08b63; --warn-soft: #3a1f15;
+  --ok: #6fcf86; --focus: #7aa7ff; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font: 16px/1.5 var(--f-body); }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+.wrap { max-width: 980px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+a { color: inherit; }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 4px; }
+
+header.top { padding-block: 28px 16px; display: grid; gap: 10px; }
+h1 { font: 700 clamp(28px, 5vw, 40px)/1.05 var(--f-display); letter-spacing: -0.02em; margin: 0; text-wrap: balance; }
+h1 .star { color: var(--star); }
+.lede { margin: 0; color: var(--muted); max-width: 60ch; }
+.statusline { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; font-size: 14px; color: var(--muted); }
+.pill { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; font-weight: 700; padding: 3px 10px; border-radius: 999px; }
+.pill::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
+.pill.ok { color: var(--ok); background: color-mix(in srgb, var(--ok) 12%, transparent); }
+.pill.warn { color: var(--warn); background: var(--warn-soft); }
+
+.bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); border-bottom: 1px solid var(--line); }
+.bar .wrap { padding-block: 10px; display: grid; gap: 10px; }
+.tabs { display: flex; gap: 4px; border: 1px solid var(--line); border-radius: 999px; padding: 3px; width: fit-content; background: var(--surface); max-width: 100%; overflow-x: auto; }
+.tabs a { text-decoration: none; padding: 6px 14px; border-radius: 999px; font: 500 15px/1.2 var(--f-display); color: var(--muted); white-space: nowrap; }
+.tabs a[aria-current="page"] { background: var(--ink); color: var(--bg); }
+.controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { font: 700 13px/1 var(--f-body); border: 1px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 999px; padding: 7px 11px; cursor: pointer; display: inline-flex; gap: 6px; align-items: center; }
+.chip .n { font: 500 12px/1 var(--f-mono); color: var(--muted); }
+.chip[aria-pressed="true"] { border-color: var(--ink); background: var(--ink); color: var(--bg); }
+.chip[aria-pressed="true"] .n { color: inherit; opacity: .75; }
+.chip .dot { width: 8px; height: 8px; border-radius: 50%; }
+.search, .sort { font: 15px var(--f-body); color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 7px 10px; }
+.search { flex: 1 1 200px; min-width: 0; }
+.spacer { flex: 1 1 auto; }
+
+main { padding-block: 8px 48px; }
+.daylabel { display: flex; justify-content: space-between; gap: 12px; align-items: baseline; margin: 28px 0 6px; padding-bottom: 6px; border-bottom: 2px solid var(--ink); }
+.daylabel h2 { font: 700 20px/1.2 var(--f-display); margin: 0; text-wrap: balance; }
+.daylabel h2::first-letter { text-transform: uppercase; }
+.daylabel .count { font: 500 13px var(--f-mono); color: var(--muted); white-space: nowrap; }
+
+ol.list { list-style: none; margin: 0; padding: 0; }
+.repo { display: grid; grid-template-columns: auto minmax(0, 1fr) 150px; gap: 4px 16px; padding: 16px 0; border-bottom: 1px solid var(--line); }
+.repo.nolead { grid-template-columns: minmax(0, 1fr) 150px; }
+.lead { font: 500 15px/1.6 var(--f-mono); color: var(--muted); min-width: 2.2em; text-align: right; font-variant-numeric: tabular-nums; }
+.main { min-width: 0; display: grid; gap: 6px; }
+.top { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; }
+.name { font: 400 16px/1.35 var(--f-mono); text-decoration: none; overflow-wrap: anywhere; }
+.name b { font-weight: 500; }
+.name:hover b { text-decoration: underline; }
+.desc { margin: 0; max-width: 64ch; }
+.desc .pending { color: var(--warn); font-weight: 700; }
+.desc .en { color: var(--muted); }
+.why { margin: 0; font-size: 14.5px; color: var(--muted); max-width: 64ch; }
+.why b { color: var(--ink); }
+.meta { display: flex; flex-wrap: wrap; gap: 6px 12px; font-size: 13px; color: var(--muted); }
+.meta .cat { font-weight: 700; color: var(--ink); }
+
+.fit { font: 700 12px/1 var(--f-body); padding: 4px 8px; border-radius: 5px; white-space: nowrap; }
+.fit.ai { color: var(--ai); background: var(--ai-soft); }
+.fit.media { color: var(--media); background: var(--media-soft); }
+.fit.both { color: var(--ink); background: linear-gradient(90deg, var(--ai-soft) 50%, var(--media-soft) 50%); }
+.fit.none { color: var(--muted); border: 1px solid var(--line); }
+.fit.unknown { color: var(--warn); border: 1px dashed var(--warn); }
+.dot.ai { background: var(--ai); } .dot.media { background: var(--media); }
+.dot.both { background: linear-gradient(90deg, var(--ai) 50%, var(--media) 50%); }
+.dot.none { background: var(--line); border: 1px solid var(--muted); }
+
+.nums { display: grid; gap: 2px; justify-items: end; align-content: start; font-variant-numeric: tabular-nums; text-align: right; }
+.stars { font: 500 18px/1.2 var(--f-mono); }
+.stars .s { color: var(--star); margin-right: 3px; }
+.delta { font: 500 13px/1.3 var(--f-mono); color: var(--star); background: var(--star-soft); padding: 2px 6px; border-radius: 4px; }
+.delta.zero { color: var(--muted); background: transparent; }
+.sub { font-size: 12px; color: var(--muted); }
+.spark { width: 140px; height: 34px; display: block; margin-top: 4px; }
+.spark .area { fill: var(--star-soft); }
+.spark .ln { fill: none; stroke: var(--star); stroke-width: 1.6; }
+.spark .end { fill: var(--star); }
+.spark .base { stroke: var(--line); stroke-width: 1; }
+
+.catsec { margin-top: 30px; }
+.catsec header { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: baseline; padding-bottom: 6px; border-bottom: 2px solid var(--ink); }
+.catsec h2 { font: 700 20px/1.2 var(--f-display); margin: 0; }
+.catsec .mix { display: flex; gap: 10px; font: 500 12px var(--f-mono); color: var(--muted); }
+.catsec .mix span { display: inline-flex; gap: 4px; align-items: center; }
+.more { margin: 14px 0 0; font: 700 14px var(--f-body); background: none; border: 1px solid var(--line); color: var(--ink); border-radius: 8px; padding: 8px 14px; cursor: pointer; }
+.more:hover { border-color: var(--ink); }
+
+.state { margin: 56px auto; max-width: 52ch; text-align: center; display: grid; gap: 10px; justify-items: center; }
+.state h2 { font: 700 22px/1.2 var(--f-display); margin: 0; text-wrap: balance; }
+.state p { margin: 0; color: var(--muted); }
+.radar { width: 72px; height: 72px; }
+.radar circle { fill: none; stroke: var(--line); stroke-width: 2; }
+.radar .sweep { stroke: var(--star); stroke-width: 3; stroke-linecap: round; transform-origin: 36px 36px; animation: sweep 2.4s linear infinite; }
+@keyframes sweep { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) { .radar .sweep { animation: none; } }
+footer { color: var(--muted); font-size: 13px; padding-block: 0 40px; }
+
+@media (max-width: 640px) {
+  .bar { position: static; }
+  .repo, .repo.nolead { grid-template-columns: auto minmax(0, 1fr); }
+  .repo.nolead { grid-template-columns: minmax(0, 1fr); }
+  .nums { grid-column: 1 / -1; justify-items: start; text-align: left; grid-template-columns: auto auto 1fr; align-items: center; gap: 4px 10px; }
+  .repo:not(.nolead) .nums { grid-column: 2; }
+  .nums .sub { grid-column: 1 / -1; }
+  .spark { width: 110px; height: 28px; margin: 0; justify-self: end; grid-column: 3; grid-row: 1; }
+}
+</style>
+
+<header class="top wrap">
+  <h1>Trending Radar<span class="star">*</span></h1>
+  <p class="lede">Wat er elke dag trending is op GitHub, in gewone taal uitgelegd, met per repo of het iets is voor Firecat.AI of Firecat.Media.</p>
+  <div class="statusline" id="statusline" aria-live="polite"></div>
+</header>
+
+<div class="bar">
+  <div class="wrap">
+    <nav class="tabs" aria-label="Weergave">
+      <a href="#vandaag" data-view="vandaag">Vandaag</a>
+      <a href="#historie" data-view="historie">Historie</a>
+      <a href="#categorieen" data-view="categorieen">Per categorie</a>
+    </nav>
+    <div class="controls">
+      <div class="chips" id="fitchips" role="group" aria-label="Filter op Firecat"></div>
+      <span class="spacer"></span>
+      <input class="search" id="q" type="search" placeholder="Zoek op naam of onderwerp" aria-label="Zoeken" autocomplete="off">
+      <select class="sort" id="sort" aria-label="Sorteren">
+        <option value="sterren">Meeste sterren</option>
+        <option value="groei">Snelste groei</option>
+        <option value="nieuw">Nieuwste eerst</option>
+      </select>
+    </div>
+  </div>
+</div>
+
+<main class="wrap" id="main">
+  <div class="state" id="loading">
+    <svg class="radar" viewBox="0 0 72 72" aria-hidden="true"><circle cx="36" cy="36" r="33"/><circle cx="36" cy="36" r="20"/><circle cx="36" cy="36" r="7"/><line class="sweep" x1="36" y1="36" x2="36" y2="5"/></svg>
+    <h2>Dashboard laden</h2>
+    <p>De lijst met repo's wordt opgehaald.</p>
+  </div>
+</main>
+
+<footer class="wrap">Bron: github.com/trending, elke ochtend opgehaald. Sterren worden dagelijks bijgewerkt voor alle repo's in de historie. Uitleg en Firecat-beoordeling door Claude.</footer>
+
+<script>
+const FITS = [
+  { key: "Firecat.AI", cls: "ai", label: "Firecat.AI" },
+  { key: "Firecat.Media", cls: "media", label: "Firecat.Media" },
+  { key: "Beide", cls: "both", label: "Beide" },
+  { key: "Geen van beide", cls: "none", label: "Geen van beide" },
+];
+const FIT_CLS = Object.fromEntries(FITS.map(f => [f.key, f.cls]));
+const nf = new Intl.NumberFormat("nl-NL");
+const fDay = new Intl.DateTimeFormat("nl-NL", { weekday: "long", day: "numeric", month: "long" });
+const fShort = new Intl.DateTimeFormat("nl-NL", { day: "numeric", month: "short" });
+const fTime = new Intl.DateTimeFormat("nl-NL", { hour: "2-digit", minute: "2-digit" });
+
+const S = { status: null, items: [], view: "vandaag", fit: "alle", q: "", sort: "sterren", days: 14, openCats: new Set(), loaded: false };
+
+function prefs(save) {
+  try {
+    if (save) localStorage.setItem("radar-prefs", JSON.stringify({ fit: S.fit, sort: S.sort }));
+    else Object.assign(S, JSON.parse(localStorage.getItem("radar-prefs") || "{}"));
+  } catch (e) { /* opslag niet beschikbaar */ }
+}
+
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const day = s => { const [y, m, d] = String(s).split("-").map(Number); return new Date(y, m - 1, d); };
+const todayIso = () => { const d = new Date(); return [d.getFullYear(), String(d.getMonth() + 1).padStart(2, "0"), String(d.getDate()).padStart(2, "0")].join("-"); };
+const signed = n => (n > 0 ? "+" : n < 0 ? "−" : "±") + nf.format(Math.abs(n));
+
+function derive(it, latest) {
+  const s = Array.isArray(it.s) ? it.s : [];
+  const t = Array.isArray(it.t) ? it.t : [];
+  const now = s.length ? s[s.length - 1][1] : null;
+  const base = it.sf ?? (s.length ? s[0][1] : null);
+  const growth = now != null && base != null ? now - base : null;
+  const span = it.first ? Math.max(1, Math.round((day(s.length ? s[s.length - 1][0] : latest) - day(it.first)) / 864e5)) : 1;
+  const hit = t.find(x => x[0] === latest);
+  const hay = [it.n, it.d, it.en, it.why, it.cat, it.lang].join(" ").toLowerCase();
+  return { ...it, now, growth, span, perDay: growth != null ? growth / span : null, rank: hit ? hit[1] : null, today: hit ? hit[2] : null, times: t.length, hay };
+}
+
+function spark(points) {
+  if (!points || points.length < 2) return "";
+  const W = 140, H = 34, P = 3;
+  const xs = points.map(p => day(p[0]).getTime()), ys = points.map(p => p[1]);
+  const x0 = Math.min(...xs), x1 = Math.max(...xs), y0 = Math.min(...ys), y1 = Math.max(...ys);
+  const sx = x => P + (x1 === x0 ? 0 : (x - x0) / (x1 - x0)) * (W - 2 * P);
+  const sy = y => H - P - (y1 === y0 ? 0.5 : (y - y0) / (y1 - y0)) * (H - 2 * P);
+  const pts = points.map((p, i) => [sx(xs[i]), sy(ys[i])]);
+  const line = pts.map((p, i) => (i ? "L" : "M") + p[0].toFixed(1) + " " + p[1].toFixed(1)).join(" ");
+  const last = pts[pts.length - 1];
+  const area = line + ` L${last[0].toFixed(1)} ${H - P} L${pts[0][0].toFixed(1)} ${H - P} Z`;
+  const label = `Sterren van ${nf.format(y0)} naar ${nf.format(ys[ys.length - 1])}`;
+  return `<svg class="spark" viewBox="0 0 ${W} ${H}" role="img" aria-label="${label}"><line class="base" x1="${P}" y1="${H - P}" x2="${W - P}" y2="${H - P}"/><path class="area" d="${area}"/><path class="ln" d="${line}"/><circle class="end" cx="${last[0].toFixed(1)}" cy="${last[1].toFixed(1)}" r="2.6"/></svg>`;
+}
+
+function fitBadge(fit) {
+  const cls = FIT_CLS[fit];
+  return cls ? `<span class="fit ${cls}">${esc(fit)}</span>` : `<span class="fit unknown">Nog niet beoordeeld</span>`;
+}
+
+function repoUrl(n) { return "https://github.com/" + String(n).split("/").map(encodeURIComponent).join("/"); }
+
+function row(it, mode) {
+  const [owner, name] = String(it.n).split("/");
+  const lead = mode === "vandaag" ? `<div class="lead">${it.rank}</div>` : "";
+  const desc = it.d ? esc(it.d) : `<span class="pending">Uitleg volgt.</span> <span class="en">${esc(it.en || "Geen beschrijving op GitHub.")}</span>`;
+  const why = it.why ? `<p class="why"><b>Waarom:</b> ${esc(it.why)}</p>` : "";
+  const meta = [
+    it.cat ? `<span class="cat">${esc(it.cat)}</span>` : "",
+    it.lang ? `<span>${esc(it.lang)}</span>` : "",
+    `<span>${it.times}× trending</span>`,
+    `<span>eerst gezien ${fShort.format(day(it.first))}</span>`,
+    it.st ? `<span>${esc(it.st)}</span>` : "",
+    it.rn ? `<span>heet nu ${esc(it.rn)}</span>` : "",
+  ].join("");
+  let delta, sub;
+  if (mode === "vandaag" && it.today != null) {
+    delta = `<span class="delta">${signed(it.today)} vandaag</span>`;
+    sub = it.growth ? `<span class="sub">${signed(it.growth)} sinds ${fShort.format(day(it.first))}</span>` : "";
+  } else {
+    delta = it.growth != null ? `<span class="delta${it.growth ? "" : " zero"}">${signed(it.growth)}</span>` : "";
+    sub = it.growth != null ? `<span class="sub">sinds ${fShort.format(day(it.first))}${it.perDay && it.span > 1 ? `, ${nf.format(Math.round(it.perDay))} per dag` : ""}</span>` : "";
+  }
+  const stars = it.now != null ? `<span class="stars"><span class="s" aria-hidden="true">★</span>${nf.format(it.now)}</span>` : `<span class="sub">sterren onbekend</span>`;
+  return `<li class="repo${lead ? "" : " nolead"}">${lead}
+    <div class="main">
+      <div class="top"><a class="name" href="${repoUrl(it.n)}" target="_blank" rel="noopener">${esc(owner)}/<b>${esc(name)}</b></a>${fitBadge(it.fit)}</div>
+      <p class="desc">${desc}</p>${why}
+      <div class="meta">${meta}</div>
+    </div>
+    <div class="nums">${stars}${delta}${sub}${spark(it.s)}</div>
+  </li>`;
+}
+
+function sorter(a, b) {
+  if (S.sort === "groei") return (b.perDay ?? -1) - (a.perDay ?? -1);
+  if (S.sort === "nieuw") return String(b.first).localeCompare(String(a.first)) || (b.now ?? 0) - (a.now ?? 0);
+  return (b.now ?? -1) - (a.now ?? -1);
+}
+
+function baseSet() {
+  return S.view === "vandaag" ? S.items.filter(i => i.rank != null).sort((a, b) => a.rank - b.rank) : S.items.slice();
+}
+
+function applyFilters(list) {
+  const q = S.q.trim().toLowerCase();
+  return list.filter(i => (S.fit === "alle" || i.fit === S.fit) && (!q || i.hay.includes(q)));
+}
+
+function renderChips(base) {
+  const q = S.q.trim().toLowerCase();
+  const searched = base.filter(i => !q || i.hay.includes(q));
+  const count = k => searched.filter(i => k === "alle" || i.fit === k).length;
+  const chips = [{ key: "alle", cls: "", label: "Alles" }, ...FITS].map(f =>
+    `<button class="chip" type="button" data-fit="${esc(f.key)}" aria-pressed="${S.fit === f.key}">${f.cls ? `<span class="dot ${f.cls}"></span>` : ""}${esc(f.label)}<span class="n">${count(f.key)}</span></button>`);
+  document.getElementById("fitchips").innerHTML = chips.join("");
+}
+
+function renderStatus() {
+  const el = document.getElementById("statusline");
+  const st = S.status;
+  if (!st) { el.innerHTML = ""; return; }
+  const today = todayIso();
+  const hour = new Date().getHours();
+  const yesterday = (() => { const d = day(today); d.setDate(d.getDate() - 1); return d; })();
+  const fresh = st.date === today || (st.date && day(st.date) >= yesterday && hour < 10);
+  const upd = st.updated_at ? new Date(st.updated_at) : null;
+  el.innerHTML = [
+    fresh ? `<span class="pill ok">Actueel</span>` : `<span class="pill warn">Ochtendrun ontbreekt</span>`,
+    st.date ? `<span>Trending van ${fDay.format(day(st.date))}</span>` : "",
+    upd && !isNaN(upd) ? `<span>bijgewerkt ${fShort.format(upd)} ${fTime.format(upd)}</span>` : "",
+    `<span>${nf.format(st.repos_total || 0)} repo's in historie</span>`,
+    st.enriched < st.repos_total ? `<span>${nf.format(st.repos_total - st.enriched)} wachten op uitleg</span>` : "",
+  ].join("");
+}
+
+function stateBlock(title, text) {
+  return `<div class="state"><h2>${esc(title)}</h2><p>${esc(text)}</p></div>`;
+}
+
+function render() {
+  document.querySelectorAll(".tabs a").forEach(a => a.setAttribute("aria-current", a.dataset.view === S.view ? "page" : "false"));
+  document.getElementById("sort").hidden = S.view === "vandaag";
+  renderStatus();
+  const main = document.getElementById("main");
+  if (!S.loaded) return;
+  const base = baseSet();
+  renderChips(base);
+  if (!S.items.length) {
+    main.innerHTML = stateBlock("Nog geen repo's", "Zodra de eerste ochtendrun klaar is, staat hier de trending-lijst van die dag met uitleg per repo.");
+    return;
+  }
+  const list = applyFilters(base);
+  if (!list.length) {
+    main.innerHTML = stateBlock("Niets gevonden", S.view === "vandaag" && !base.length
+      ? "Er is nog geen trending-lijst voor de laatste datum."
+      : "Geen repo's met dit filter. Kies een ander label of pas je zoekterm aan.");
+    return;
+  }
+  if (S.view === "vandaag") {
+    main.innerHTML = `<div class="daylabel"><h2>${S.status?.date ? fDay.format(day(S.status.date)) : "Vandaag"}</h2><span class="count">${list.length} van ${base.length}</span></div><ol class="list">${list.map(i => row(i, "vandaag")).join("")}</ol>`;
+  } else if (S.view === "historie") {
+    const groups = new Map();
+    for (const it of list) { const k = it.first || "onbekend"; if (!groups.has(k)) groups.set(k, []); groups.get(k).push(it); }
+    const keys = [...groups.keys()].sort().reverse();
+    const shown = keys.slice(0, S.days);
+    main.innerHTML = shown.map(k => {
+      const g = groups.get(k).sort(sorter);
+      return `<section><div class="daylabel"><h2>${k === "onbekend" ? "Datum onbekend" : fDay.format(day(k))}</h2><span class="count">${g.length} nieuw binnen</span></div><ol class="list">${g.map(i => row(i, "historie")).join("")}</ol></section>`;
+    }).join("") + (keys.length > shown.length ? `<button class="more" type="button" data-more="days">Toon oudere dagen (${keys.length - shown.length})</button>` : "");
+  } else {
+    const order = (S.status?.categories || []).slice();
+    const groups = new Map(order.map(c => [c, []]));
+    for (const it of list) { const k = it.cat || "Nog niet ingedeeld"; if (!groups.has(k)) groups.set(k, []); groups.get(k).push(it); }
+    const rankCat = ([c, g]) => (c === "Nog niet ingedeeld" ? -1 : g.length);
+    main.innerHTML = [...groups.entries()].filter(([, g]) => g.length).sort((a, b) => rankCat(b) - rankCat(a)).map(([cat, g]) => {
+      g.sort(sorter);
+      const open = S.openCats.has(cat);
+      const mix = FITS.map(f => { const n = g.filter(i => i.fit === f.key).length; return n ? `<span><span class="dot ${f.cls}"></span>${n}</span>` : ""; }).join("");
+      const vis = open ? g : g.slice(0, 5);
+      return `<section class="catsec"><header><h2>${esc(cat)}</h2><span class="count sub">${g.length} repo's</span><span class="mix" aria-label="Verdeling per Firecat-label">${mix}</span></header><ol class="list">${vis.map(i => row(i, "categorie")).join("")}</ol>${g.length > 5 ? `<button class="more" type="button" data-cat="${esc(cat)}">${open ? "Toon minder" : `Toon alle ${g.length}`}</button>` : ""}</section>`;
+    }).join("");
+  }
+}
+
+function setView() {
+  const h = location.hash.replace("#", "");
+  S.view = ["vandaag", "historie", "categorieen"].includes(h) ? h : "vandaag";
+  render();
+}
+
+document.addEventListener("click", e => {
+  const chip = e.target.closest("[data-fit]");
+  if (chip) { S.fit = chip.dataset.fit; prefs(true); render(); return; }
+  const more = e.target.closest("[data-more]");
+  if (more) { S.days += 14; render(); return; }
+  const cat = e.target.closest("[data-cat]");
+  if (cat) { const c = cat.dataset.cat; S.openCats.has(c) ? S.openCats.delete(c) : S.openCats.add(c); render(); }
+});
+document.getElementById("q").addEventListener("input", e => { S.q = e.target.value; render(); });
+document.getElementById("sort").addEventListener("change", e => { S.sort = e.target.value; prefs(true); render(); });
+window.addEventListener("hashchange", setView);
+
+prefs(false);
+document.getElementById("sort").value = S.sort;
+setView();
+
+function showProblem(title, text) {
+  S.loaded = false;
+  document.getElementById("main").innerHTML = stateBlock(title, text);
+}
+
+async function loadChunks(db, status) {
+  const ids = Array.isArray(status.chunks) ? status.chunks : [];
+  const snaps = await Promise.all(ids.map(id => db.doc("repos/" + id).get()));
+  const latest = status.date;
+  const items = [];
+  for (const s of snaps) if (s.exists) for (const it of (s.data().items || [])) items.push(derive(it, latest));
+  S.status = status;
+  S.items = items;
+  S.loaded = true;
+  render();
+}
+
+(async () => {
+  const db = await claude.use("db");
+  if (!db) { showProblem("Database niet bereikbaar", "Open dit dashboard ingelogd op claude.ai om de repo's te zien."); return; }
+  let first = true, lastStamp = null;
+  const timer = setTimeout(() => { if (!S.loaded) showProblem("Het duurt lang", "De database reageert nog niet. Probeer het over een paar minuten opnieuw."); }, 10000);
+  db.doc("meta/status").onSnapshot(async snap => {
+    if (!snap.metadata.fromCache) clearTimeout(timer);
+    if (!snap.exists) {
+      if (!snap.metadata.fromCache) { S.status = null; S.items = []; S.loaded = true; render(); }
+      return;
+    }
+    const status = snap.data();
+    if (!first && status.updated_at === lastStamp) return;
+    first = false; lastStamp = status.updated_at;
+    try { await loadChunks(db, status); }
+    catch (err) { showProblem("Laden mislukt", "De repo-gegevens konden niet worden gelezen. Vernieuw de pagina later nog eens."); }
+  }, () => { clearTimeout(timer); showProblem("Verbinding verbroken", "De database is niet meer bereikbaar. Vernieuw de pagina om het opnieuw te proberen."); });
+})();
+</script>
