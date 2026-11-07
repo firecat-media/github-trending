@@ -1,0 +1,323 @@
+{
+ "anthropics/skills": {
+  "description": "Public repository for Agent Skills",
+  "first_seen": "2026-11-07",
+  "language": "Python",
+  "last_seen": "2026-11-07",
+  "stars_first": 188636,
+  "status": "actief",
+  "topics": [
+   "agent-skills"
+  ],
+  "trending": [
+   [
+    "2026-11-07",
+    5,
+    386
+   ]
+  ]
+ },
+ "astral-sh/ruff": {
+  "description": "An extremely fast Python linter and code formatter, written in Rust.",
+  "first_seen": "2026-11-07",
+  "homepage": "https://docs.astral.sh/ruff",
+  "language": "Rust",
+  "last_seen": "2026-11-07",
+  "stars_first": 50930,
+  "status": "actief",
+  "topics": [
+   "linter",
+   "pep8",
+   "python",
+   "python3",
+   "rust",
+   "rustpython",
+   "static-analysis",
+   "static-code-analysis"
+  ],
+  "trending": [
+   [
+    "2026-11-07",
+    10,
+    350
+   ]
+  ]
+ },
+ "cloudflare/security-audit-skill": {
+  "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+  "first_seen": "2026-11-07",
+  "language": "JavaScript",
+  "last_seen": "2026-11-07",
+  "stars_first": 65443,
+  "status": "actief",
+  "topics": [],
+  "trending": [
+   [
+    "2026-11-07",
+    2,
+    2088
+   ]
+  ]
+ },
+ "dsx-ai-factory/nvke": {
+  "description": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
+  "first_seen": "2026-11-07",
+  "homepage": "https://docs.nvidia.com/nvke/",
+  "language": "Go",
+  "last_seen": "2026-11-07",
+  "stars_first": 502,
+  "status": "actief",
+  "topics": [
+   "bare-metal",
+   "cluster-api",
+   "gpu",
+   "kubernetes",
+   "nvidia"
+  ],
+  "trending": [
+   [
+    "2026-11-07",
+    15,
+    125
+   ]
+  ]
+ },
+ "google/skills": {
+  "description": "Agent Skills for Google products and technologies",
+  "first_seen": "2026-11-07",
+  "language": "Python",
+  "last_seen": "2026-11-07",
+  "stars_first": 23280,
+  "status": "actief",
+  "topics": [
+   "google",
+   "googlecloud",
+   "skills"
+  ],
+  "trending": [
+   [
+    "2026-11-07",
+    3,
+    449
+   ]
+  ]
+ },
+ "mattpocock/skills": {
+  "description": "Skills for Real Engineers. Straight from my .agents directory.",
+  "first_seen": "2026-11-07",
+  "homepage": "https://aihero.dev/skills",
+  "language": "Shell",
+  "last_seen": "2026-11-07",
+  "stars_first": 317541,
+  "status": "actief",
+  "topics": [],
+  "trending": [
+   [
+    "2026-11-07",
+    4,
+    1111
+   ]
+  ]
+ },
+ "mbillow/localthings": {
+  "description": "Control your Samsung appliances from Home Assistant over your home network, with no cloud account.",
+  "first_seen": "2026-11-07",
+  "language": "Python",
+  "last_seen": "2026-11-07",
+  "stars_first": 1016,
+  "status": "actief",
+  "topics": [
+   "custom-component",
+   "hacs",
+   "hacs-integration",
+   "home-assistant",
+   "home-automation",
+   "samsung",
+   "smartthings",
+   "coap-protocol"
+  ],
+  "trending": [
+   [
+    "2026-11-07",
+    12,
+    184
+   ]
+  ]
+ },
+ "meta/astryx": {
+  "description": "An open source design system that's fully customizable and agent ready",
+  "first_seen": "2026-11-07",
+  "homepage": "http://astryx.atmeta.com",
+  "language": "TypeScript",
+  "last_seen": "2026-11-07",
+  "stars_first": 14358,
+  "status": "actief",
+  "topics": [],
+  "trending": [
+   [
+    "2026-11-07",
+    6,
+    185
+   ]
+  ]
+ },
+ "milind-soni/OpenMausBot": {
+  "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+  "first_seen": "2026-11-07",
+  "homepage": "https://www.openmausbot.com/",
+  "language": "TypeScript",
+  "last_seen": "2026-11-07",
+  "stars_first": 16813,
+  "status": "actief",
+  "topics": [
+   "ai-agents",
+   "claude-code",
+   "codex",
+   "computer-use",
+   "docker",
+   "electron",
+   "expo",
+   "self-hosted"
+  ],
+  "trending": [
+   [
+    "2026-11-07",
+    9,
+    1986
+   ]
+  ]
+ },
+ "prometheus/prometheus": {
+  "description": "The Prometheus monitoring system and time series database.",
+  "first_seen": "2026-11-07",
+  "homepage": "https://prometheus.io/",
+  "language": "Go",
+  "last_seen": "2026-11-07",
+  "stars_first": 67392,
+  "status": "actief",
+  "topics": [
+   "monitoring",
+   "metrics",
+   "alerting",
+   "graphing",
+   "time-series",
+   "prometheus",
+   "hacktoberfest"
+  ],
+  "trending": [
+   [
+    "2026-11-07",
+    7,
+    325
+   ]
+  ]
+ },
+ "ranxianglei/billion-context": {
+  "description": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
+  "first_seen": "2026-11-07",
+  "language": "TypeScript",
+  "last_seen": "2026-11-07",
+  "stars_first": 4552,
+  "status": "actief",
+  "topics": [
+   "dsh-plugin"
+  ],
+  "trending": [
+   [
+    "2026-11-07",
+    14,
+    185
+   ]
+  ]
+ },
+ "sherlock-project/sherlock": {
+  "description": "Hunt down social media accounts by username across social networks",
+  "first_seen": "2026-11-07",
+  "homepage": "https://sherlockproject.xyz",
+  "language": "Python",
+  "last_seen": "2026-11-07",
+  "stars_first": 100210,
+  "status": "actief",
+  "topics": [
+   "osint",
+   "reconnaissance",
+   "linux",
+   "cli",
+   "sherlock",
+   "python3",
+   "redteam",
+   "tools"
+  ],
+  "trending": [
+   [
+    "2026-11-07",
+    8,
+    1819
+   ]
+  ]
+ },
+ "tailwindlabs/tailwindcss": {
+  "description": "A utility-first CSS framework for rapid UI development.",
+  "first_seen": "2026-11-07",
+  "homepage": "https://tailwindcss.com/",
+  "language": "TypeScript",
+  "last_seen": "2026-11-07",
+  "stars_first": 98386,
+  "status": "actief",
+  "topics": [
+   "tailwindcss",
+   "css",
+   "css-framework",
+   "postcss",
+   "functional-css",
+   "utility-classes",
+   "responsive"
+  ],
+  "trending": [
+   [
+    "2026-11-07",
+    11,
+    181
+   ]
+  ]
+ },
+ "vercel-labs/agent-browser": {
+  "description": "Browser automation CLI for AI agents",
+  "first_seen": "2026-11-07",
+  "homepage": "https://agent-browser.dev",
+  "language": "Rust",
+  "last_seen": "2026-11-07",
+  "stars_first": 46704,
+  "status": "actief",
+  "topics": [],
+  "trending": [
+   [
+    "2026-11-07",
+    1,
+    180
+   ]
+  ]
+ },
+ "zed-industries/zed": {
+  "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+  "first_seen": "2026-11-07",
+  "homepage": "https://zed.dev",
+  "language": "Rust",
+  "last_seen": "2026-11-07",
+  "stars_first": 94210,
+  "status": "actief",
+  "topics": [
+   "text-editor",
+   "zed",
+   "gpui",
+   "rust-lang"
+  ],
+  "trending": [
+   [
+    "2026-11-07",
+    13,
+    1119
+   ]
+  ]
+ }
+}

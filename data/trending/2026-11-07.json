@@ -1,0 +1,142 @@
+{
+ "date": "2026-11-07",
+ "fetched_at": "2026-11-07T21:06+01:00",
+ "items": [
+  {
+   "description": "Browser automation CLI for AI agents",
+   "forks": 3202,
+   "language": "Rust",
+   "rank": 1,
+   "repo": "vercel-labs/agent-browser",
+   "stars": 46704,
+   "stars_today": 180
+  },
+  {
+   "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+   "forks": 4254,
+   "language": "JavaScript",
+   "rank": 2,
+   "repo": "cloudflare/security-audit-skill",
+   "stars": 65443,
+   "stars_today": 2088
+  },
+  {
+   "description": "Agent Skills for Google products and technologies",
+   "forks": 1948,
+   "language": "Python",
+   "rank": 3,
+   "repo": "google/skills",
+   "stars": 23280,
+   "stars_today": 449
+  },
+  {
+   "description": "Skills for Real Engineers. Straight from my .agents directory.",
+   "forks": 26568,
+   "language": "Shell",
+   "rank": 4,
+   "repo": "mattpocock/skills",
+   "stars": 317541,
+   "stars_today": 1111
+  },
+  {
+   "description": "Public repository for Agent Skills",
+   "forks": 22240,
+   "language": "Python",
+   "rank": 5,
+   "repo": "anthropics/skills",
+   "stars": 188636,
+   "stars_today": 386
+  },
+  {
+   "description": "An open source design system that's fully customizable and agent ready",
+   "forks": 1179,
+   "language": "TypeScript",
+   "rank": 6,
+   "repo": "meta/astryx",
+   "stars": 14358,
+   "stars_today": 185
+  },
+  {
+   "description": "The Prometheus monitoring system and time series database.",
+   "forks": 11000,
+   "language": "Go",
+   "rank": 7,
+   "repo": "prometheus/prometheus",
+   "stars": 67392,
+   "stars_today": 325
+  },
+  {
+   "description": "Hunt down social media accounts by username across social networks",
+   "forks": 11849,
+   "language": "Python",
+   "rank": 8,
+   "repo": "sherlock-project/sherlock",
+   "stars": 100210,
+   "stars_today": 1819
+  },
+  {
+   "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+   "forks": 2383,
+   "language": "TypeScript",
+   "rank": 9,
+   "repo": "milind-soni/OpenMausBot",
+   "stars": 16813,
+   "stars_today": 1986
+  },
+  {
+   "description": "An extremely fast Python linter and code formatter, written in Rust.",
+   "forks": 2629,
+   "language": "Rust",
+   "rank": 10,
+   "repo": "astral-sh/ruff",
+   "stars": 50930,
+   "stars_today": 350
+  },
+  {
+   "description": "A utility-first CSS framework for rapid UI development.",
+   "forks": 7102,
+   "language": "TypeScript",
+   "rank": 11,
+   "repo": "tailwindlabs/tailwindcss",
+   "stars": 98386,
+   "stars_today": 181
+  },
+  {
+   "description": "Control your Samsung appliances from Home Assistant over your home network, with no cloud account.",
+   "forks": 109,
+   "language": "Python",
+   "rank": 12,
+   "repo": "mbillow/localthings",
+   "stars": 1016,
+   "stars_today": 184
+  },
+  {
+   "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+   "forks": 11548,
+   "language": "Rust",
+   "rank": 13,
+   "repo": "zed-industries/zed",
+   "stars": 94210,
+   "stars_today": 1119
+  },
+  {
+   "description": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
+   "forks": 365,
+   "language": "TypeScript",
+   "rank": 14,
+   "repo": "ranxianglei/billion-context",
+   "stars": 4552,
+   "stars_today": 185
+  },
+  {
+   "description": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
+   "forks": 85,
+   "language": "Go",
+   "rank": 15,
+   "repo": "dsx-ai-factory/nvke",
+   "stars": 502,
+   "stars_today": 125
+  }
+ ],
+ "source": "https://github.com/trending?since=daily"
+}
