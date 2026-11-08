@@ -3,7 +3,7 @@
   "description": "Public repository for Agent Skills",
   "first_seen": "2026-11-07",
   "language": "Python",
-  "last_seen": "2026-11-07",
+  "last_seen": "2026-11-08",
   "stars_first": 188636,
   "status": "actief",
   "topics": [
@@ -14,6 +14,11 @@
     "2026-11-07",
     5,
     386
+   ],
+   [
+    "2026-11-08",
+    5,
+    390
    ]
   ]
  },
@@ -22,7 +27,7 @@
   "first_seen": "2026-11-07",
   "homepage": "https://docs.astral.sh/ruff",
   "language": "Rust",
-  "last_seen": "2026-11-07",
+  "last_seen": "2026-11-08",
   "stars_first": 50930,
   "status": "actief",
   "topics": [
@@ -40,6 +45,11 @@
     "2026-11-07",
     10,
     350
+   ],
+   [
+    "2026-11-08",
+    10,
+    350
    ]
   ]
  },
@@ -47,7 +57,7 @@
   "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
   "first_seen": "2026-11-07",
   "language": "JavaScript",
-  "last_seen": "2026-11-07",
+  "last_seen": "2026-11-08",
   "stars_first": 65443,
   "status": "actief",
   "topics": [],
@@ -56,6 +66,11 @@
     "2026-11-07",
     2,
     2088
+   ],
+   [
+    "2026-11-08",
+    2,
+    2085
    ]
   ]
  },
@@ -64,7 +79,7 @@
   "first_seen": "2026-11-07",
   "homepage": "https://docs.nvidia.com/nvke/",
   "language": "Go",
-  "last_seen": "2026-11-07",
+  "last_seen": "2026-11-08",
   "stars_first": 502,
   "status": "actief",
   "topics": [
@@ -79,6 +94,11 @@
     "2026-11-07",
     15,
     125
+   ],
+   [
+    "2026-11-08",
+    15,
+    123
    ]
   ]
  },
@@ -86,7 +106,7 @@
   "description": "Agent Skills for Google products and technologies",
   "first_seen": "2026-11-07",
   "language": "Python",
-  "last_seen": "2026-11-07",
+  "last_seen": "2026-11-08",
   "stars_first": 23280,
   "status": "actief",
   "topics": [
@@ -99,6 +119,11 @@
     "2026-11-07",
     3,
     449
+   ],
+   [
+    "2026-11-08",
+    3,
+    443
    ]
   ]
  },
@@ -107,7 +132,7 @@
   "first_seen": "2026-11-07",
   "homepage": "https://aihero.dev/skills",
   "language": "Shell",
-  "last_seen": "2026-11-07",
+  "last_seen": "2026-11-08",
   "stars_first": 317541,
   "status": "actief",
   "topics": [],
@@ -116,6 +141,11 @@
     "2026-11-07",
     4,
     1111
+   ],
+   [
+    "2026-11-08",
+    4,
+    1100
    ]
   ]
  },
@@ -123,7 +153,7 @@
   "description": "Control your Samsung appliances from Home Assistant over your home network, with no cloud account.",
   "first_seen": "2026-11-07",
   "language": "Python",
-  "last_seen": "2026-11-07",
+  "last_seen": "2026-11-08",
   "stars_first": 1016,
   "status": "actief",
   "topics": [
@@ -141,6 +171,11 @@
     "2026-11-07",
     12,
     184
+   ],
+   [
+    "2026-11-08",
+    12,
+    186
    ]
   ]
  },
@@ -149,7 +184,7 @@
   "first_seen": "2026-11-07",
   "homepage": "http://astryx.atmeta.com",
   "language": "TypeScript",
-  "last_seen": "2026-11-07",
+  "last_seen": "2026-11-08",
   "stars_first": 14358,
   "status": "actief",
   "topics": [],
@@ -158,15 +193,20 @@
     "2026-11-07",
     6,
     185
+   ],
+   [
+    "2026-11-08",
+    6,
+    96
    ]
   ]
  },
  "milind-soni/OpenMausBot": {
   "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
   "first_seen": "2026-11-07",
-  "homepage": "https://www.openmausbot.com/",
+  "homepage": "https://www.mausbot.com/",
   "language": "TypeScript",
-  "last_seen": "2026-11-07",
+  "last_seen": "2026-11-08",
   "stars_first": 16813,
   "status": "actief",
   "topics": [
@@ -176,14 +216,19 @@
    "computer-use",
    "docker",
    "electron",
-   "expo",
-   "self-hosted"
+   "self-hosted",
+   "typescript"
   ],
   "trending": [
    [
     "2026-11-07",
     9,
     1986
+   ],
+   [
+    "2026-11-08",
+    9,
+    1955
    ]
   ]
  },
@@ -192,7 +237,7 @@
   "first_seen": "2026-11-07",
   "homepage": "https://prometheus.io/",
   "language": "Go",
-  "last_seen": "2026-11-07",
+  "last_seen": "2026-11-08",
   "stars_first": 67392,
   "status": "actief",
   "topics": [
@@ -209,6 +254,11 @@
     "2026-11-07",
     7,
     325
+   ],
+   [
+    "2026-11-08",
+    7,
+    322
    ]
   ]
  },
@@ -216,7 +266,7 @@
   "description": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
   "first_seen": "2026-11-07",
   "language": "TypeScript",
-  "last_seen": "2026-11-07",
+  "last_seen": "2026-11-08",
   "stars_first": 4552,
   "status": "actief",
   "topics": [
@@ -227,6 +277,11 @@
     "2026-11-07",
     14,
     185
+   ],
+   [
+    "2026-11-08",
+    14,
+    191
    ]
   ]
  },
@@ -235,7 +290,7 @@
   "first_seen": "2026-11-07",
   "homepage": "https://sherlockproject.xyz",
   "language": "Python",
-  "last_seen": "2026-11-07",
+  "last_seen": "2026-11-08",
   "stars_first": 100210,
   "status": "actief",
   "topics": [
@@ -253,6 +308,11 @@
     "2026-11-07",
     8,
     1819
+   ],
+   [
+    "2026-11-08",
+    8,
+    1766
    ]
   ]
  },
@@ -261,7 +321,7 @@
   "first_seen": "2026-11-07",
   "homepage": "https://tailwindcss.com/",
   "language": "TypeScript",
-  "last_seen": "2026-11-07",
+  "last_seen": "2026-11-08",
   "stars_first": 98386,
   "status": "actief",
   "topics": [
@@ -278,6 +338,11 @@
     "2026-11-07",
     11,
     181
+   ],
+   [
+    "2026-11-08",
+    11,
+    122
    ]
   ]
  },
@@ -286,7 +351,7 @@
   "first_seen": "2026-11-07",
   "homepage": "https://agent-browser.dev",
   "language": "Rust",
-  "last_seen": "2026-11-07",
+  "last_seen": "2026-11-08",
   "stars_first": 46704,
   "status": "actief",
   "topics": [],
@@ -295,6 +360,11 @@
     "2026-11-07",
     1,
     180
+   ],
+   [
+    "2026-11-08",
+    1,
+    190
    ]
   ]
  },
@@ -303,7 +373,7 @@
   "first_seen": "2026-11-07",
   "homepage": "https://zed.dev",
   "language": "Rust",
-  "last_seen": "2026-11-07",
+  "last_seen": "2026-11-08",
   "stars_first": 94210,
   "status": "actief",
   "topics": [
@@ -317,6 +387,11 @@
     "2026-11-07",
     13,
     1119
+   ],
+   [
+    "2026-11-08",
+    13,
+    1114
    ]
   ]
  }
