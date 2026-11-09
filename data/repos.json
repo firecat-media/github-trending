@@ -1,9 +1,50 @@
 {
+ "ZhuLinsen/daily_stock_analysis": {
+  "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+  "first_seen": "2026-11-09",
+  "homepage": "https://dsa.zhulinsen.tech",
+  "language": "Python",
+  "last_seen": "2026-11-09",
+  "stars_first": 68469,
+  "status": "actief",
+  "topics": [
+   "aigc",
+   "llm",
+   "quant",
+   "quantitative-trading",
+   "a-stock",
+   "ai-agent",
+   "quantitative-finance"
+  ],
+  "trending": [
+   [
+    "2026-11-09",
+    9,
+    505
+   ]
+  ]
+ },
+ "anthropics/claude-quickstarts": {
+  "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+  "first_seen": "2026-11-09",
+  "language": "Python",
+  "last_seen": "2026-11-09",
+  "stars_first": 19738,
+  "status": "actief",
+  "topics": [],
+  "trending": [
+   [
+    "2026-11-09",
+    5,
+    560
+   ]
+  ]
+ },
  "anthropics/skills": {
   "description": "Public repository for Agent Skills",
   "first_seen": "2026-11-07",
   "language": "Python",
-  "last_seen": "2026-11-08",
+  "last_seen": "2026-11-09",
   "stars_first": 188636,
   "status": "actief",
   "topics": [
@@ -19,6 +60,11 @@
     "2026-11-08",
     5,
     390
+   ],
+   [
+    "2026-11-09",
+    1,
+    1052
    ]
   ]
  },
@@ -102,6 +148,43 @@
    ]
   ]
  },
+ "garrytan/gbrain": {
+  "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
+  "first_seen": "2026-11-09",
+  "language": "TypeScript",
+  "last_seen": "2026-11-09",
+  "stars_first": 31870,
+  "status": "actief",
+  "topics": [],
+  "trending": [
+   [
+    "2026-11-09",
+    6,
+    215
+   ]
+  ]
+ },
+ "google-deepmind/mujoco": {
+  "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+  "first_seen": "2026-11-09",
+  "homepage": "https://mujoco.org",
+  "language": "C++",
+  "last_seen": "2026-11-09",
+  "stars_first": 16722,
+  "status": "actief",
+  "topics": [
+   "robotics",
+   "physics",
+   "mujoco"
+  ],
+  "trending": [
+   [
+    "2026-11-09",
+    4,
+    579
+   ]
+  ]
+ },
  "google/skills": {
   "description": "Agent Skills for Google products and technologies",
   "first_seen": "2026-11-07",
@@ -124,6 +207,32 @@
     "2026-11-08",
     3,
     443
+   ]
+  ]
+ },
+ "homeassistant-ai/ha-mcp": {
+  "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+  "first_seen": "2026-11-09",
+  "homepage": "https://homeassistant-ai.github.io/ha-mcp/",
+  "language": "Python",
+  "last_seen": "2026-11-09",
+  "stars_first": 5563,
+  "status": "actief",
+  "topics": [
+   "ai",
+   "claude",
+   "hacs",
+   "home-assistant",
+   "home-automation",
+   "llm",
+   "mcp",
+   "model-context-protocol"
+  ],
+  "trending": [
+   [
+    "2026-11-09",
+    10,
+    31
    ]
   ]
  },
@@ -184,7 +293,7 @@
   "first_seen": "2026-11-07",
   "homepage": "http://astryx.atmeta.com",
   "language": "TypeScript",
-  "last_seen": "2026-11-08",
+  "last_seen": "2026-11-09",
   "stars_first": 14358,
   "status": "actief",
   "topics": [],
@@ -198,6 +307,11 @@
     "2026-11-08",
     6,
     96
+   ],
+   [
+    "2026-11-09",
+    2,
+    3324
    ]
   ]
  },
@@ -206,7 +320,7 @@
   "first_seen": "2026-11-07",
   "homepage": "https://www.mausbot.com/",
   "language": "TypeScript",
-  "last_seen": "2026-11-08",
+  "last_seen": "2026-11-09",
   "stars_first": 16813,
   "status": "actief",
   "topics": [
@@ -229,6 +343,11 @@
     "2026-11-08",
     9,
     1955
+   ],
+   [
+    "2026-11-09",
+    11,
+    1589
    ]
   ]
  },
@@ -285,12 +404,38 @@
    ]
   ]
  },
+ "ruvnet/RuView": {
+  "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+  "first_seen": "2026-11-09",
+  "homepage": "https://ruv.io",
+  "language": "Rust",
+  "last_seen": "2026-11-09",
+  "stars_first": 103161,
+  "status": "actief",
+  "topics": [
+   "wifi",
+   "esp32",
+   "monitoring",
+   "rf",
+   "wifi-security",
+   "self-learning",
+   "firmware",
+   "pose-estimation"
+  ],
+  "trending": [
+   [
+    "2026-11-09",
+    8,
+    203
+   ]
+  ]
+ },
  "sherlock-project/sherlock": {
   "description": "Hunt down social media accounts by username across social networks",
   "first_seen": "2026-11-07",
   "homepage": "https://sherlockproject.xyz",
   "language": "Python",
-  "last_seen": "2026-11-08",
+  "last_seen": "2026-11-09",
   "stars_first": 100210,
   "status": "actief",
   "topics": [
@@ -313,6 +458,11 @@
     "2026-11-08",
     8,
     1766
+   ],
+   [
+    "2026-11-09",
+    3,
+    4294
    ]
   ]
  },
@@ -351,7 +501,7 @@
   "first_seen": "2026-11-07",
   "homepage": "https://agent-browser.dev",
   "language": "Rust",
-  "last_seen": "2026-11-08",
+  "last_seen": "2026-11-09",
   "stars_first": 46704,
   "status": "actief",
   "topics": [],
@@ -365,6 +515,11 @@
     "2026-11-08",
     1,
     190
+   ],
+   [
+    "2026-11-09",
+    7,
+    914
    ]
   ]
  },
