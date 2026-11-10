@@ -1,0 +1,115 @@
+{
+ "date": "2026-11-10",
+ "fetched_at": "2026-11-10T13:30+01:00",
+ "items": [
+  {
+   "description": "An open source design system that's fully customizable and agent ready",
+   "forks": 1664,
+   "language": "TypeScript",
+   "rank": 1,
+   "repo": "meta/astryx",
+   "stars": 21491,
+   "stars_today": 3111
+  },
+  {
+   "description": "Public repository for Agent Skills",
+   "forks": 22532,
+   "language": "Python",
+   "rank": 2,
+   "repo": "anthropics/skills",
+   "stars": 191786,
+   "stars_today": 1676
+  },
+  {
+   "description": "Production-grade engineering skills for AI coding agents.",
+   "forks": 11999,
+   "language": "JavaScript",
+   "rank": 3,
+   "repo": "addyosmani/agent-skills",
+   "stars": 114797,
+   "stars_today": 465
+  },
+  {
+   "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+   "forks": 3386,
+   "language": "Python",
+   "rank": 4,
+   "repo": "anthropics/claude-quickstarts",
+   "stars": 20259,
+   "stars_today": 530
+  },
+  {
+   "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+   "forks": 2068,
+   "language": "C++",
+   "rank": 5,
+   "repo": "google-deepmind/mujoco",
+   "stars": 17167,
+   "stars_today": 453
+  },
+  {
+   "description": "The personal finance app for everyone (by everyone)",
+   "forks": 799,
+   "language": "Ruby",
+   "rank": 6,
+   "repo": "we-promise/sure",
+   "stars": 11430,
+   "stars_today": 184
+  },
+  {
+   "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+   "forks": 348,
+   "language": "Python",
+   "rank": 7,
+   "repo": "homeassistant-ai/ha-mcp",
+   "stars": 6344,
+   "stars_today": 792
+  },
+  {
+   "description": "Browser automation CLI for AI agents",
+   "forks": 3387,
+   "language": "Rust",
+   "rank": 8,
+   "repo": "vercel-labs/agent-browser",
+   "stars": 48898,
+   "stars_today": 775
+  },
+  {
+   "description": "Hunt down social media accounts by username across social networks",
+   "forks": 12541,
+   "language": "Python",
+   "rank": 9,
+   "repo": "sherlock-project/sherlock",
+   "stars": 108247,
+   "stars_today": 2387
+  },
+  {
+   "description": "A batteries-included framework for building web apps",
+   "forks": 236,
+   "language": "Rust",
+   "rank": 10,
+   "repo": "tokio-rs/topcoat",
+   "stars": 6594,
+   "stars_today": 192
+  },
+  {
+   "description": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
+   "forks": 449,
+   "language": "TypeScript",
+   "rank": 11,
+   "repo": "ranxianglei/billion-context",
+   "stars": 5972,
+   "stars_today": 374
+  },
+  {
+   "description": "Skills for Real Engineers. Straight from my .agents directory.",
+   "forks": 26823,
+   "language": "Shell",
+   "rank": 12,
+   "repo": "mattpocock/skills",
+   "stars": 320339,
+   "stars_today": 1223
+  }
+ ],
+ "source": "https://github.com/trending?since=daily"
+}

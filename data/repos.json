@@ -24,11 +24,35 @@
    ]
   ]
  },
+ "addyosmani/agent-skills": {
+  "description": "Production-grade engineering skills for AI coding agents.",
+  "first_seen": "2026-11-10",
+  "homepage": "https://skills.addy.ie",
+  "language": "JavaScript",
+  "last_seen": "2026-11-10",
+  "stars_first": 114797,
+  "status": "actief",
+  "topics": [
+   "agent-skills",
+   "antigravity",
+   "claude-code",
+   "cursor",
+   "skills",
+   "codex"
+  ],
+  "trending": [
+   [
+    "2026-11-10",
+    3,
+    465
+   ]
+  ]
+ },
  "anthropics/claude-quickstarts": {
   "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
   "first_seen": "2026-11-09",
   "language": "Python",
-  "last_seen": "2026-11-09",
+  "last_seen": "2026-11-10",
   "stars_first": 19738,
   "status": "actief",
   "topics": [],
@@ -37,6 +61,11 @@
     "2026-11-09",
     5,
     560
+   ],
+   [
+    "2026-11-10",
+    4,
+    530
    ]
   ]
  },
@@ -44,7 +73,7 @@
   "description": "Public repository for Agent Skills",
   "first_seen": "2026-11-07",
   "language": "Python",
-  "last_seen": "2026-11-09",
+  "last_seen": "2026-11-10",
   "stars_first": 188636,
   "status": "actief",
   "topics": [
@@ -65,6 +94,11 @@
     "2026-11-09",
     1,
     1052
+   ],
+   [
+    "2026-11-10",
+    2,
+    1676
    ]
   ]
  },
@@ -169,7 +203,7 @@
   "first_seen": "2026-11-09",
   "homepage": "https://mujoco.org",
   "language": "C++",
-  "last_seen": "2026-11-09",
+  "last_seen": "2026-11-10",
   "stars_first": 16722,
   "status": "actief",
   "topics": [
@@ -182,6 +216,11 @@
     "2026-11-09",
     4,
     579
+   ],
+   [
+    "2026-11-10",
+    5,
+    453
    ]
   ]
  },
@@ -215,7 +254,7 @@
   "first_seen": "2026-11-09",
   "homepage": "https://homeassistant-ai.github.io/ha-mcp/",
   "language": "Python",
-  "last_seen": "2026-11-09",
+  "last_seen": "2026-11-10",
   "stars_first": 5563,
   "status": "actief",
   "topics": [
@@ -233,6 +272,11 @@
     "2026-11-09",
     10,
     31
+   ],
+   [
+    "2026-11-10",
+    7,
+    792
    ]
   ]
  },
@@ -241,7 +285,7 @@
   "first_seen": "2026-11-07",
   "homepage": "https://aihero.dev/skills",
   "language": "Shell",
-  "last_seen": "2026-11-08",
+  "last_seen": "2026-11-10",
   "stars_first": 317541,
   "status": "actief",
   "topics": [],
@@ -255,6 +299,11 @@
     "2026-11-08",
     4,
     1100
+   ],
+   [
+    "2026-11-10",
+    12,
+    1223
    ]
   ]
  },
@@ -293,7 +342,7 @@
   "first_seen": "2026-11-07",
   "homepage": "http://astryx.atmeta.com",
   "language": "TypeScript",
-  "last_seen": "2026-11-09",
+  "last_seen": "2026-11-10",
   "stars_first": 14358,
   "status": "actief",
   "topics": [],
@@ -312,6 +361,11 @@
     "2026-11-09",
     2,
     3324
+   ],
+   [
+    "2026-11-10",
+    1,
+    3111
    ]
   ]
  },
@@ -385,7 +439,7 @@
   "description": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
   "first_seen": "2026-11-07",
   "language": "TypeScript",
-  "last_seen": "2026-11-08",
+  "last_seen": "2026-11-10",
   "stars_first": 4552,
   "status": "actief",
   "topics": [
@@ -401,13 +455,18 @@
     "2026-11-08",
     14,
     191
+   ],
+   [
+    "2026-11-10",
+    11,
+    374
    ]
   ]
  },
  "ruvnet/RuView": {
   "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
   "first_seen": "2026-11-09",
-  "homepage": "https://ruv.io",
+  "homepage": "https://cognitum.one",
   "language": "Rust",
   "last_seen": "2026-11-09",
   "stars_first": 103161,
@@ -435,7 +494,7 @@
   "first_seen": "2026-11-07",
   "homepage": "https://sherlockproject.xyz",
   "language": "Python",
-  "last_seen": "2026-11-09",
+  "last_seen": "2026-11-10",
   "stars_first": 100210,
   "status": "actief",
   "topics": [
@@ -463,6 +522,11 @@
     "2026-11-09",
     3,
     4294
+   ],
+   [
+    "2026-11-10",
+    9,
+    2387
    ]
   ]
  },
@@ -496,12 +560,28 @@
    ]
   ]
  },
+ "tokio-rs/topcoat": {
+  "description": "A batteries-included framework for building web apps",
+  "first_seen": "2026-11-10",
+  "language": "Rust",
+  "last_seen": "2026-11-10",
+  "stars_first": 6594,
+  "status": "actief",
+  "topics": [],
+  "trending": [
+   [
+    "2026-11-10",
+    10,
+    192
+   ]
+  ]
+ },
  "vercel-labs/agent-browser": {
   "description": "Browser automation CLI for AI agents",
   "first_seen": "2026-11-07",
   "homepage": "https://agent-browser.dev",
   "language": "Rust",
-  "last_seen": "2026-11-09",
+  "last_seen": "2026-11-10",
   "stars_first": 46704,
   "status": "actief",
   "topics": [],
@@ -520,6 +600,28 @@
     "2026-11-09",
     7,
     914
+   ],
+   [
+    "2026-11-10",
+    8,
+    775
+   ]
+  ]
+ },
+ "we-promise/sure": {
+  "description": "The personal finance app for everyone (by everyone)",
+  "first_seen": "2026-11-10",
+  "homepage": "https://sure.am",
+  "language": "Ruby",
+  "last_seen": "2026-11-10",
+  "stars_first": 11430,
+  "status": "actief",
+  "topics": [],
+  "trending": [
+   [
+    "2026-11-10",
+    6,
+    184
    ]
   ]
  },
