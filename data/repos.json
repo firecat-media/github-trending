@@ -1,10 +1,52 @@
 {
+ "GoogleChrome/modern-web-guidance-src": {
+  "description": "",
+  "first_seen": "2026-11-11",
+  "homepage": "https://goo.gle/modern-web-guidance",
+  "language": "TypeScript",
+  "last_seen": "2026-11-11",
+  "stars_first": 1411,
+  "status": "actief",
+  "topics": [],
+  "trending": [
+   [
+    "2026-11-11",
+    3,
+    133
+   ]
+  ]
+ },
+ "TheAlgorithms/Java": {
+  "description": "All Algorithms implemented in Java",
+  "first_seen": "2026-11-11",
+  "language": "Java",
+  "last_seen": "2026-11-11",
+  "stars_first": 66856,
+  "status": "actief",
+  "topics": [
+   "java",
+   "algorithms",
+   "algorithms-datastructures",
+   "algorithm-challenges",
+   "sorting-algorithms",
+   "search",
+   "sort",
+   "hacktoberfest"
+  ],
+  "trending": [
+   [
+    "2026-11-11",
+    10,
+    39
+   ]
+  ]
+ },
  "ZhuLinsen/daily_stock_analysis": {
   "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
   "first_seen": "2026-11-09",
   "homepage": "https://dsa.zhulinsen.tech",
   "language": "Python",
-  "last_seen": "2026-11-09",
+  "last_seen": "2026-11-11",
   "stars_first": 68469,
   "status": "actief",
   "topics": [
@@ -21,6 +63,11 @@
     "2026-11-09",
     9,
     505
+   ],
+   [
+    "2026-11-11",
+    2,
+    960
    ]
   ]
  },
@@ -29,7 +76,7 @@
   "first_seen": "2026-11-10",
   "homepage": "https://skills.addy.ie",
   "language": "JavaScript",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-11",
   "stars_first": 114797,
   "status": "actief",
   "topics": [
@@ -45,6 +92,11 @@
     "2026-11-10",
     3,
     465
+   ],
+   [
+    "2026-11-11",
+    5,
+    788
    ]
   ]
  },
@@ -254,7 +306,7 @@
   "first_seen": "2026-11-09",
   "homepage": "https://homeassistant-ai.github.io/ha-mcp/",
   "language": "Python",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-11",
   "stars_first": 5563,
   "status": "actief",
   "topics": [
@@ -277,6 +329,11 @@
     "2026-11-10",
     7,
     792
+   ],
+   [
+    "2026-11-11",
+    8,
+    640
    ]
   ]
  },
@@ -342,7 +399,7 @@
   "first_seen": "2026-11-07",
   "homepage": "http://astryx.atmeta.com",
   "language": "TypeScript",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-11",
   "stars_first": 14358,
   "status": "actief",
   "topics": [],
@@ -366,6 +423,11 @@
     "2026-11-10",
     1,
     3111
+   ],
+   [
+    "2026-11-11",
+    1,
+    2842
    ]
   ]
  },
@@ -402,6 +464,32 @@
     "2026-11-09",
     11,
     1589
+   ]
+  ]
+ },
+ "openai/codex-security": {
+  "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+  "first_seen": "2026-11-11",
+  "homepage": "https://developers.openai.com/codex/security",
+  "language": "TypeScript",
+  "last_seen": "2026-11-11",
+  "stars_first": 11395,
+  "status": "actief",
+  "topics": [
+   "ai-security",
+   "application-security",
+   "cli",
+   "code-scanning",
+   "codex",
+   "codex-security",
+   "cybersecurity",
+   "devsecops"
+  ],
+  "trending": [
+   [
+    "2026-11-11",
+    9,
+    20
    ]
   ]
  },
@@ -442,9 +530,7 @@
   "last_seen": "2026-11-10",
   "stars_first": 4552,
   "status": "actief",
-  "topics": [
-   "dsh-plugin"
-  ],
+  "topics": [],
   "trending": [
    [
     "2026-11-07",
@@ -486,6 +572,22 @@
     "2026-11-09",
     8,
     203
+   ]
+  ]
+ },
+ "shadcn/improve": {
+  "description": "Use your most capable model to audit your codebase and write plans for cheaper models to execute.",
+  "first_seen": "2026-11-11",
+  "language": null,
+  "last_seen": "2026-11-11",
+  "stars_first": 10397,
+  "status": "actief",
+  "topics": [],
+  "trending": [
+   [
+    "2026-11-11",
+    4,
+    333
    ]
   ]
  },
@@ -581,7 +683,7 @@
   "first_seen": "2026-11-07",
   "homepage": "https://agent-browser.dev",
   "language": "Rust",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-11",
   "stars_first": 46704,
   "status": "actief",
   "topics": [],
@@ -605,6 +707,11 @@
     "2026-11-10",
     8,
     775
+   ],
+   [
+    "2026-11-11",
+    6,
+    712
    ]
   ]
  },
@@ -613,7 +720,7 @@
   "first_seen": "2026-11-10",
   "homepage": "https://sure.am",
   "language": "Ruby",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-11",
   "stars_first": 11430,
   "status": "actief",
   "topics": [],
@@ -622,6 +729,11 @@
     "2026-11-10",
     6,
     184
+   ],
+   [
+    "2026-11-11",
+    7,
+    1079
    ]
   ]
  },
