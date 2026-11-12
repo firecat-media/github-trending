@@ -1,0 +1,124 @@
+{
+ "date": "2026-11-12",
+ "fetched_at": "2026-11-12T13:34+01:00",
+ "items": [
+  {
+   "description": "",
+   "forks": 161,
+   "language": "TypeScript",
+   "rank": 1,
+   "repo": "GoogleChrome/modern-web-guidance-src",
+   "stars": 2246,
+   "stars_today": 799
+  },
+  {
+   "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+   "forks": 956,
+   "language": "TypeScript",
+   "rank": 2,
+   "repo": "openai/codex-security",
+   "stars": 12081,
+   "stars_today": 663
+  },
+  {
+   "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
+   "forks": 10754,
+   "language": "Shell",
+   "rank": 3,
+   "repo": "nvm-sh/nvm",
+   "stars": 95929,
+   "stars_today": 79
+  },
+  {
+   "description": "Enable Hermès Watch Faces on any Apple Watch devices",
+   "forks": 127,
+   "language": "Objective-C",
+   "rank": 4,
+   "repo": "pookjw/HermesEnabler",
+   "stars": 1343,
+   "stars_today": 390
+  },
+  {
+   "description": "The personal finance app for everyone (by everyone)",
+   "forks": 991,
+   "language": "Ruby",
+   "rank": 5,
+   "repo": "we-promise/sure",
+   "stars": 13479,
+   "stars_today": 974
+  },
+  {
+   "description": "An open-source AI coding agent that lives in your terminal.",
+   "forks": 3381,
+   "language": "TypeScript",
+   "rank": 6,
+   "repo": "QwenLM/qwen-code",
+   "stars": 29561,
+   "stars_today": 151
+  },
+  {
+   "description": "LLM Inference Engine for Metal, CUDA and Vulkan.",
+   "forks": 386,
+   "language": "Zig",
+   "rank": 7,
+   "repo": "ashhart/TensorFold",
+   "stars": 1827,
+   "stars_today": 58
+  },
+  {
+   "description": "Node.js JavaScript runtime ✨🐢🚀✨",
+   "forks": 38051,
+   "language": "JavaScript",
+   "rank": 8,
+   "repo": "nodejs/node",
+   "stars": 123503,
+   "stars_today": 133
+  },
+  {
+   "description": "Production-grade engineering skills for AI coding agents.",
+   "forks": 12189,
+   "language": "JavaScript",
+   "rank": 9,
+   "repo": "addyosmani/agent-skills",
+   "stars": 116345,
+   "stars_today": 812
+  },
+  {
+   "description": "An open source design system that's fully customizable and agent ready",
+   "forks": 2013,
+   "language": "TypeScript",
+   "rank": 10,
+   "repo": "meta/astryx",
+   "stars": 25943,
+   "stars_today": 1789
+  },
+  {
+   "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+   "forks": 1392,
+   "language": "TypeScript",
+   "rank": 11,
+   "repo": "CopilotKit/OpenBot",
+   "stars": 11231,
+   "stars_today": 291
+  },
+  {
+   "description": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
+   "forks": 10720,
+   "language": "Python",
+   "rank": 12,
+   "repo": "Alishahryar1/free-claude-code",
+   "stars": 68880,
+   "stars_today": 636
+  },
+  {
+   "description": "LLM inference in C/C++",
+   "forks": 25471,
+   "language": "C++",
+   "rank": 13,
+   "repo": "ggml-org/llama.cpp",
+   "stars": 134255,
+   "stars_today": 162
+  }
+ ],
+ "source": "https://github.com/trending?since=daily"
+}

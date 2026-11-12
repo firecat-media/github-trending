@@ -1,10 +1,51 @@
 {
+ "Alishahryar1/free-claude-code": {
+  "description": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
+  "first_seen": "2026-11-12",
+  "language": "Python",
+  "last_seen": "2026-11-12",
+  "stars_first": 68880,
+  "status": "actief",
+  "topics": [],
+  "trending": [
+   [
+    "2026-11-12",
+    12,
+    636
+   ]
+  ]
+ },
+ "CopilotKit/OpenBot": {
+  "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+  "first_seen": "2026-11-12",
+  "homepage": "open.bot",
+  "language": "TypeScript",
+  "last_seen": "2026-11-12",
+  "stars_first": 11231,
+  "status": "actief",
+  "topics": [
+   "ag-ui",
+   "agent-governance",
+   "ai-agents",
+   "browser-automation",
+   "copilotkit",
+   "generative-ui",
+   "mcp"
+  ],
+  "trending": [
+   [
+    "2026-11-12",
+    11,
+    291
+   ]
+  ]
+ },
  "GoogleChrome/modern-web-guidance-src": {
   "description": "",
   "first_seen": "2026-11-11",
   "homepage": "https://goo.gle/modern-web-guidance",
   "language": "TypeScript",
-  "last_seen": "2026-11-11",
+  "last_seen": "2026-11-12",
   "stars_first": 1411,
   "status": "actief",
   "topics": [],
@@ -13,6 +54,37 @@
     "2026-11-11",
     3,
     133
+   ],
+   [
+    "2026-11-12",
+    1,
+    799
+   ]
+  ]
+ },
+ "QwenLM/qwen-code": {
+  "description": "An open-source AI coding agent that lives in your terminal.",
+  "first_seen": "2026-11-12",
+  "homepage": "https://qwenlm.github.io/qwen-code-docs/en/users/overview",
+  "language": "TypeScript",
+  "last_seen": "2026-11-12",
+  "stars_first": 29561,
+  "status": "actief",
+  "topics": [
+   "agentic",
+   "ai",
+   "ai-agent",
+   "ai-coding",
+   "cli",
+   "coding-agent",
+   "developer-tools",
+   "llm"
+  ],
+  "trending": [
+   [
+    "2026-11-12",
+    6,
+    151
    ]
   ]
  },
@@ -76,7 +148,7 @@
   "first_seen": "2026-11-10",
   "homepage": "https://skills.addy.ie",
   "language": "JavaScript",
-  "last_seen": "2026-11-11",
+  "last_seen": "2026-11-12",
   "stars_first": 114797,
   "status": "actief",
   "topics": [
@@ -97,6 +169,11 @@
     "2026-11-11",
     5,
     788
+   ],
+   [
+    "2026-11-12",
+    9,
+    812
    ]
   ]
  },
@@ -151,6 +228,29 @@
     "2026-11-10",
     2,
     1676
+   ]
+  ]
+ },
+ "ashhart/TensorFold": {
+  "description": "LLM Inference Engine for Metal, CUDA and Vulkan.",
+  "first_seen": "2026-11-12",
+  "homepage": "https://tensorfold.dev",
+  "language": "Zig",
+  "last_seen": "2026-11-12",
+  "stars_first": 1827,
+  "status": "actief",
+  "topics": [
+   "ai",
+   "ai-tools",
+   "llm",
+   "llm-inference",
+   "llm-tools"
+  ],
+  "trending": [
+   [
+    "2026-11-12",
+    7,
+    58
    ]
   ]
  },
@@ -247,6 +347,25 @@
     "2026-11-09",
     6,
     215
+   ]
+  ]
+ },
+ "ggml-org/llama.cpp": {
+  "description": "LLM inference in C/C++",
+  "first_seen": "2026-11-12",
+  "homepage": "https://llama.app",
+  "language": "C++",
+  "last_seen": "2026-11-12",
+  "stars_first": 134255,
+  "status": "actief",
+  "topics": [
+   "ggml"
+  ],
+  "trending": [
+   [
+    "2026-11-12",
+    13,
+    162
    ]
   ]
  },
@@ -399,7 +518,7 @@
   "first_seen": "2026-11-07",
   "homepage": "http://astryx.atmeta.com",
   "language": "TypeScript",
-  "last_seen": "2026-11-11",
+  "last_seen": "2026-11-12",
   "stars_first": 14358,
   "status": "actief",
   "topics": [],
@@ -428,6 +547,11 @@
     "2026-11-11",
     1,
     2842
+   ],
+   [
+    "2026-11-12",
+    10,
+    1789
    ]
   ]
  },
@@ -467,12 +591,63 @@
    ]
   ]
  },
+ "nodejs/node": {
+  "description": "Node.js JavaScript runtime ✨🐢🚀✨",
+  "first_seen": "2026-11-12",
+  "homepage": "https://nodejs.org",
+  "language": "JavaScript",
+  "last_seen": "2026-11-12",
+  "stars_first": 123503,
+  "status": "actief",
+  "topics": [
+   "nodejs",
+   "javascript",
+   "node",
+   "js",
+   "runtime",
+   "mit",
+   "linux",
+   "macos"
+  ],
+  "trending": [
+   [
+    "2026-11-12",
+    8,
+    133
+   ]
+  ]
+ },
+ "nvm-sh/nvm": {
+  "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
+  "first_seen": "2026-11-12",
+  "language": "Shell",
+  "last_seen": "2026-11-12",
+  "stars_first": 95929,
+  "status": "actief",
+  "topics": [
+   "nvm",
+   "nodejs",
+   "node",
+   "node-js",
+   "version-manager",
+   "posix",
+   "posix-compliant",
+   "bash"
+  ],
+  "trending": [
+   [
+    "2026-11-12",
+    3,
+    79
+   ]
+  ]
+ },
  "openai/codex-security": {
   "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
   "first_seen": "2026-11-11",
   "homepage": "https://developers.openai.com/codex/security",
   "language": "TypeScript",
-  "last_seen": "2026-11-11",
+  "last_seen": "2026-11-12",
   "stars_first": 11395,
   "status": "actief",
   "topics": [
@@ -490,6 +665,27 @@
     "2026-11-11",
     9,
     20
+   ],
+   [
+    "2026-11-12",
+    2,
+    663
+   ]
+  ]
+ },
+ "pookjw/HermesEnabler": {
+  "description": "Enable Hermès Watch Faces on any Apple Watch devices",
+  "first_seen": "2026-11-12",
+  "language": "Objective-C",
+  "last_seen": "2026-11-12",
+  "stars_first": 1343,
+  "status": "actief",
+  "topics": [],
+  "trending": [
+   [
+    "2026-11-12",
+    4,
+    390
    ]
   ]
  },
@@ -720,7 +916,7 @@
   "first_seen": "2026-11-10",
   "homepage": "https://sure.am",
   "language": "Ruby",
-  "last_seen": "2026-11-11",
+  "last_seen": "2026-11-12",
   "stars_first": 11430,
   "status": "actief",
   "topics": [],
@@ -734,6 +930,11 @@
     "2026-11-11",
     7,
     1079
+   ],
+   [
+    "2026-11-12",
+    5,
+    974
    ]
   ]
  },
