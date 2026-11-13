@@ -15,6 +15,32 @@
    ]
   ]
  },
+ "ChromeDevTools/chrome-devtools-mcp": {
+  "description": "Chrome DevTools for coding agents",
+  "first_seen": "2026-11-13",
+  "homepage": "https://developer.chrome.com/docs/devtools/agents",
+  "language": "TypeScript",
+  "last_seen": "2026-11-13",
+  "stars_first": 55219,
+  "status": "actief",
+  "topics": [
+   "mcp-server",
+   "puppeteer",
+   "chrome-devtools",
+   "browser",
+   "chrome",
+   "debugging",
+   "devtools",
+   "mcp"
+  ],
+  "trending": [
+   [
+    "2026-11-13",
+    12,
+    60
+   ]
+  ]
+ },
  "CopilotKit/OpenBot": {
   "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
   "first_seen": "2026-11-12",
@@ -41,11 +67,11 @@
   ]
  },
  "GoogleChrome/modern-web-guidance-src": {
-  "description": "",
+  "description": "Keep your coding agent up to date with the latest web best practices",
   "first_seen": "2026-11-11",
   "homepage": "https://goo.gle/modern-web-guidance",
   "language": "TypeScript",
-  "last_seen": "2026-11-12",
+  "last_seen": "2026-11-13",
   "stars_first": 1411,
   "status": "actief",
   "topics": [],
@@ -59,6 +85,27 @@
     "2026-11-12",
     1,
     799
+   ],
+   [
+    "2026-11-13",
+    2,
+    1875
+   ]
+  ]
+ },
+ "Likely7/Veyra-NRVideo": {
+  "description": "Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super Resolution, DLSS5 image enhancement, and Frame Generation to deliver a next-generation visual experience.",
+  "first_seen": "2026-11-13",
+  "language": "C++",
+  "last_seen": "2026-11-13",
+  "stars_first": 1407,
+  "status": "actief",
+  "topics": [],
+  "trending": [
+   [
+    "2026-11-13",
+    11,
+    245
    ]
   ]
  },
@@ -118,7 +165,7 @@
   "first_seen": "2026-11-09",
   "homepage": "https://dsa.zhulinsen.tech",
   "language": "Python",
-  "last_seen": "2026-11-11",
+  "last_seen": "2026-11-13",
   "stars_first": 68469,
   "status": "actief",
   "topics": [
@@ -140,6 +187,11 @@
     "2026-11-11",
     2,
     960
+   ],
+   [
+    "2026-11-13",
+    4,
+    272
    ]
   ]
  },
@@ -174,6 +226,30 @@
     "2026-11-12",
     9,
     812
+   ]
+  ]
+ },
+ "alibaba/open-code-review": {
+  "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+  "first_seen": "2026-11-13",
+  "homepage": "https://open-codereview.ai",
+  "language": "Go",
+  "last_seen": "2026-11-13",
+  "stars_first": 50158,
+  "status": "actief",
+  "topics": [
+   "agent",
+   "code-review",
+   "code-review-assistant",
+   "harness",
+   "repository-level-context",
+   "agent-skills"
+  ],
+  "trending": [
+   [
+    "2026-11-13",
+    1,
+    206
    ]
   ]
  },
@@ -282,6 +358,48 @@
     "2026-11-08",
     10,
     350
+   ]
+  ]
+ },
+ "backnotprop/plannotator": {
+  "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+  "first_seen": "2026-11-13",
+  "homepage": "https://plannotator.ai",
+  "language": "TypeScript",
+  "last_seen": "2026-11-13",
+  "stars_first": 10256,
+  "status": "actief",
+  "topics": [
+   "claude-code",
+   "opencode",
+   "obsidian",
+   "pi-mono",
+   "plan-mode",
+   "codex",
+   "agents",
+   "code-review"
+  ],
+  "trending": [
+   [
+    "2026-11-13",
+    6,
+    100
+   ]
+  ]
+ },
+ "block/buzz": {
+  "description": "A hive mind communication platform",
+  "first_seen": "2026-11-13",
+  "language": "Rust",
+  "last_seen": "2026-11-13",
+  "stars_first": 37153,
+  "status": "actief",
+  "topics": [],
+  "trending": [
+   [
+    "2026-11-13",
+    8,
+    95
    ]
   ]
  },
@@ -453,6 +571,32 @@
     "2026-11-11",
     8,
     640
+   ]
+  ]
+ },
+ "louislam/uptime-kuma": {
+  "description": "A fancy self-hosted monitoring tool",
+  "first_seen": "2026-11-13",
+  "homepage": "https://uptime.kuma.pet",
+  "language": "JavaScript",
+  "last_seen": "2026-11-13",
+  "stars_first": 93627,
+  "status": "actief",
+  "topics": [
+   "uptime",
+   "monitoring",
+   "docker",
+   "selfhosted",
+   "self-hosted",
+   "single-page-app",
+   "webapp",
+   "responsive"
+  ],
+  "trending": [
+   [
+    "2026-11-13",
+    7,
+    61
    ]
   ]
  },
@@ -647,7 +791,7 @@
   "first_seen": "2026-11-11",
   "homepage": "https://developers.openai.com/codex/security",
   "language": "TypeScript",
-  "last_seen": "2026-11-12",
+  "last_seen": "2026-11-13",
   "stars_first": 11395,
   "status": "actief",
   "topics": [
@@ -670,6 +814,11 @@
     "2026-11-12",
     2,
     663
+   ],
+   [
+    "2026-11-13",
+    3,
+    754
    ]
   ]
  },
@@ -828,6 +977,23 @@
    ]
   ]
  },
+ "tailscale/tailcat": {
+  "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+  "first_seen": "2026-11-13",
+  "homepage": "https://tailscale.com/tailcat",
+  "language": "Go",
+  "last_seen": "2026-11-13",
+  "stars_first": 9186,
+  "status": "actief",
+  "topics": [],
+  "trending": [
+   [
+    "2026-11-13",
+    10,
+    173
+   ]
+  ]
+ },
  "tailwindlabs/tailwindcss": {
   "description": "A utility-first CSS framework for rapid UI development.",
   "first_seen": "2026-11-07",
@@ -874,6 +1040,23 @@
    ]
   ]
  },
+ "tradermonty/claude-trading-skills": {
+  "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+  "first_seen": "2026-11-13",
+  "homepage": "https://tradermonty.github.io/claude-trading-skills/",
+  "language": "Python",
+  "last_seen": "2026-11-13",
+  "stars_first": 3867,
+  "status": "actief",
+  "topics": [],
+  "trending": [
+   [
+    "2026-11-13",
+    9,
+    60
+   ]
+  ]
+ },
  "vercel-labs/agent-browser": {
   "description": "Browser automation CLI for AI agents",
   "first_seen": "2026-11-07",
@@ -916,7 +1099,7 @@
   "first_seen": "2026-11-10",
   "homepage": "https://sure.am",
   "language": "Ruby",
-  "last_seen": "2026-11-12",
+  "last_seen": "2026-11-13",
   "stars_first": 11430,
   "status": "actief",
   "topics": [],
@@ -935,6 +1118,11 @@
     "2026-11-12",
     5,
     974
+   ],
+   [
+    "2026-11-13",
+    5,
+    944
    ]
   ]
  },
