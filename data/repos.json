@@ -20,7 +20,7 @@
   "first_seen": "2026-11-13",
   "homepage": "https://developer.chrome.com/docs/devtools/agents",
   "language": "TypeScript",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "stars_first": 55219,
   "status": "actief",
   "topics": [
@@ -43,6 +43,11 @@
     "2026-11-14",
     12,
     673
+   ],
+   [
+    "2026-11-15",
+    4,
+    718
    ]
   ]
  },
@@ -76,7 +81,7 @@
   "first_seen": "2026-11-11",
   "homepage": "https://goo.gle/modern-web-guidance",
   "language": "TypeScript",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "stars_first": 1411,
   "status": "actief",
   "topics": [],
@@ -100,6 +105,37 @@
     "2026-11-14",
     2,
     1225
+   ],
+   [
+    "2026-11-15",
+    2,
+    1220
+   ]
+  ]
+ },
+ "JuliusBrussee/caveman": {
+  "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+  "first_seen": "2026-11-15",
+  "homepage": "https://docs.caveman.so/caveman",
+  "language": "Go",
+  "last_seen": "2026-11-15",
+  "stars_first": 120302,
+  "status": "actief",
+  "topics": [
+   "ai",
+   "anthropic",
+   "caveman",
+   "claude",
+   "claude-code",
+   "llm",
+   "meme",
+   "prompt-engineering"
+  ],
+  "trending": [
+   [
+    "2026-11-15",
+    10,
+    227
    ]
   ]
  },
@@ -107,7 +143,7 @@
   "description": "Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super Resolution, DLSS5 image enhancement, and Frame Generation to deliver a next-generation visual experience.",
   "first_seen": "2026-11-13",
   "language": "C++",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "stars_first": 1407,
   "status": "actief",
   "topics": [],
@@ -121,6 +157,11 @@
     "2026-11-14",
     11,
     423
+   ],
+   [
+    "2026-11-15",
+    14,
+    731
    ]
   ]
  },
@@ -129,7 +170,7 @@
   "first_seen": "2026-11-12",
   "homepage": "https://qwenlm.github.io/qwen-code-docs/en/users/overview",
   "language": "TypeScript",
-  "last_seen": "2026-11-12",
+  "last_seen": "2026-11-15",
   "stars_first": 29561,
   "status": "actief",
   "topics": [
@@ -147,6 +188,37 @@
     "2026-11-12",
     6,
     151
+   ],
+   [
+    "2026-11-15",
+    6,
+    64
+   ]
+  ]
+ },
+ "Tencent/LoopForge": {
+  "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
+  "first_seen": "2026-11-15",
+  "homepage": "https://loopforge.cn",
+  "language": "Go",
+  "last_seen": "2026-11-15",
+  "stars_first": 1137,
+  "status": "actief",
+  "topics": [
+   "agent-orchestration",
+   "agentic-workflow",
+   "ai-agents",
+   "ai-coding",
+   "claude-code",
+   "code-review",
+   "codebuddy",
+   "codex"
+  ],
+  "trending": [
+   [
+    "2026-11-15",
+    13,
+    33
    ]
   ]
  },
@@ -249,12 +321,35 @@
    ]
   ]
  },
+ "ag-ui-protocol/ag-ui": {
+  "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+  "first_seen": "2026-11-15",
+  "homepage": "https://ag-ui.com",
+  "language": "TypeScript",
+  "last_seen": "2026-11-15",
+  "stars_first": 17542,
+  "status": "actief",
+  "topics": [
+   "ag-ui-protocol",
+   "agent-frontend",
+   "agent-ui",
+   "agentic-workflow",
+   "ai-agents"
+  ],
+  "trending": [
+   [
+    "2026-11-15",
+    8,
+    9
+   ]
+  ]
+ },
  "alibaba/open-code-review": {
   "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
   "first_seen": "2026-11-13",
   "homepage": "https://open-codereview.ai",
   "language": "Go",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "stars_first": 50158,
   "status": "actief",
   "topics": [
@@ -275,6 +370,11 @@
     "2026-11-14",
     1,
     897
+   ],
+   [
+    "2026-11-15",
+    5,
+    688
    ]
   ]
  },
@@ -337,7 +437,7 @@
   "first_seen": "2026-11-12",
   "homepage": "https://tensorfold.dev",
   "language": "Zig",
-  "last_seen": "2026-11-12",
+  "last_seen": "2026-11-15",
   "stars_first": 1827,
   "status": "actief",
   "topics": [
@@ -352,6 +452,11 @@
     "2026-11-12",
     7,
     58
+   ],
+   [
+    "2026-11-15",
+    9,
+    37
    ]
   ]
  },
@@ -391,7 +496,7 @@
   "first_seen": "2026-11-13",
   "homepage": "https://plannotator.ai",
   "language": "TypeScript",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "stars_first": 10256,
   "status": "actief",
   "topics": [
@@ -414,6 +519,11 @@
     "2026-11-14",
     6,
     412
+   ],
+   [
+    "2026-11-15",
+    1,
+    860
    ]
   ]
  },
@@ -456,6 +566,32 @@
     "2026-11-08",
     2,
     2085
+   ]
+  ]
+ },
+ "dream-num/univer": {
+  "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+  "first_seen": "2026-11-15",
+  "homepage": "https://univer.ai",
+  "language": "TypeScript",
+  "last_seen": "2026-11-15",
+  "stars_first": 25210,
+  "status": "actief",
+  "topics": [
+   "excel",
+   "spreadsheet",
+   "xlsx",
+   "doc",
+   "word",
+   "ppt",
+   "collaboration",
+   "sdk"
+  ],
+  "trending": [
+   [
+    "2026-11-15",
+    7,
+    495
    ]
   ]
  },
@@ -614,7 +750,7 @@
   "first_seen": "2026-11-13",
   "homepage": "https://uptime.kuma.pet",
   "language": "JavaScript",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "stars_first": 93627,
   "status": "actief",
   "topics": [
@@ -637,6 +773,37 @@
     "2026-11-14",
     7,
     432
+   ],
+   [
+    "2026-11-15",
+    11,
+    352
+   ]
+  ]
+ },
+ "martin-olivier/airgorah": {
+  "description": "A WiFi security auditing software",
+  "first_seen": "2026-11-15",
+  "homepage": "https://crates.io/crates/airgorah",
+  "language": "Rust",
+  "last_seen": "2026-11-15",
+  "stars_first": 6142,
+  "status": "actief",
+  "topics": [
+   "gui",
+   "security",
+   "security-audit",
+   "wifi",
+   "wifi-security",
+   "wireless",
+   "kali",
+   "linux-app"
+  ],
+  "trending": [
+   [
+    "2026-11-15",
+    15,
+    270
    ]
   ]
  },
@@ -1095,7 +1262,7 @@
   "first_seen": "2026-11-13",
   "homepage": "https://tradermonty.github.io/claude-trading-skills/",
   "language": "Python",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "stars_first": 3867,
   "status": "actief",
   "topics": [],
@@ -1109,6 +1276,11 @@
     "2026-11-14",
     9,
     556
+   ],
+   [
+    "2026-11-15",
+    3,
+    707
    ]
   ]
  },
@@ -1154,7 +1326,7 @@
   "first_seen": "2026-11-10",
   "homepage": "https://sure.am",
   "language": "Ruby",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "stars_first": 11430,
   "status": "actief",
   "topics": [],
@@ -1183,6 +1355,11 @@
     "2026-11-14",
     5,
     659
+   ],
+   [
+    "2026-11-15",
+    12,
+    520
    ]
   ]
  },
