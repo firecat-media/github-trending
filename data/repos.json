@@ -20,7 +20,7 @@
   "first_seen": "2026-11-13",
   "homepage": "https://developer.chrome.com/docs/devtools/agents",
   "language": "TypeScript",
-  "last_seen": "2026-11-15",
+  "last_seen": "2026-11-16",
   "stars_first": 55219,
   "status": "actief",
   "topics": [
@@ -48,6 +48,11 @@
     "2026-11-15",
     4,
     718
+   ],
+   [
+    "2026-11-16",
+    13,
+    837
    ]
   ]
  },
@@ -73,6 +78,32 @@
     "2026-11-12",
     11,
     291
+   ]
+  ]
+ },
+ "DeanChensj/jiangshan-map": {
+  "description": "江山时序 · 中国历史交互地图时间轴 (403 BCE – Present) | Interactive Historical Atlas of China across 18 dynasties, 198 territory snapshots, ancient-to-modern place genealogy & classical poetry routes",
+  "first_seen": "2026-11-16",
+  "homepage": "https://deanchen.me/jiangshan-map/",
+  "language": "JavaScript",
+  "last_seen": "2026-11-16",
+  "stars_first": 6478,
+  "status": "actief",
+  "topics": [
+   "ancient-china",
+   "cartography",
+   "china-map",
+   "chinese-history",
+   "classical-chinese-poetry",
+   "digital-humanities",
+   "gis",
+   "historical-atlas"
+  ],
+  "trending": [
+   [
+    "2026-11-16",
+    7,
+    285
    ]
   ]
  },
@@ -162,6 +193,32 @@
     "2026-11-15",
     14,
     731
+   ]
+  ]
+ },
+ "NVIDIA/SkillEvaluator": {
+  "description": "Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
+  "first_seen": "2026-11-16",
+  "homepage": "https://docs.nvidia.com/skills/skillevaluator/",
+  "language": "Python",
+  "last_seen": "2026-11-16",
+  "stars_first": 2227,
+  "status": "actief",
+  "topics": [
+   "agentic-ai",
+   "evaluation",
+   "agent-evaluation",
+   "agent-security",
+   "skills",
+   "agent-skills",
+   "benchmark",
+   "claude-code"
+  ],
+  "trending": [
+   [
+    "2026-11-16",
+    10,
+    122
    ]
   ]
  },
@@ -326,7 +383,7 @@
   "first_seen": "2026-11-15",
   "homepage": "https://ag-ui.com",
   "language": "TypeScript",
-  "last_seen": "2026-11-15",
+  "last_seen": "2026-11-16",
   "stars_first": 17542,
   "status": "actief",
   "topics": [
@@ -341,6 +398,11 @@
     "2026-11-15",
     8,
     9
+   ],
+   [
+    "2026-11-16",
+    1,
+    790
    ]
   ]
  },
@@ -349,7 +411,7 @@
   "first_seen": "2026-11-13",
   "homepage": "https://open-codereview.ai",
   "language": "Go",
-  "last_seen": "2026-11-15",
+  "last_seen": "2026-11-16",
   "stars_first": 50158,
   "status": "actief",
   "topics": [
@@ -375,6 +437,11 @@
     "2026-11-15",
     5,
     688
+   ],
+   [
+    "2026-11-16",
+    11,
+    946
    ]
   ]
  },
@@ -496,7 +563,7 @@
   "first_seen": "2026-11-13",
   "homepage": "https://plannotator.ai",
   "language": "TypeScript",
-  "last_seen": "2026-11-15",
+  "last_seen": "2026-11-16",
   "stars_first": 10256,
   "status": "actief",
   "topics": [
@@ -524,6 +591,11 @@
     "2026-11-15",
     1,
     860
+   ],
+   [
+    "2026-11-16",
+    2,
+    689
    ]
   ]
  },
@@ -574,7 +646,7 @@
   "first_seen": "2026-11-15",
   "homepage": "https://univer.ai",
   "language": "TypeScript",
-  "last_seen": "2026-11-15",
+  "last_seen": "2026-11-16",
   "stars_first": 25210,
   "status": "actief",
   "topics": [
@@ -592,6 +664,11 @@
     "2026-11-15",
     7,
     495
+   ],
+   [
+    "2026-11-16",
+    3,
+    1878
    ]
   ]
  },
@@ -623,6 +700,32 @@
    ]
   ]
  },
+ "elementalsouls/Claude-BugHunter": {
+  "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+  "first_seen": "2026-11-16",
+  "homepage": "https://elementalsouls.github.io/Claude-BugHunter",
+  "language": "Python",
+  "last_seen": "2026-11-16",
+  "stars_first": 7062,
+  "status": "actief",
+  "topics": [
+   "ai-security",
+   "anthropic",
+   "application-security",
+   "bug-bounty",
+   "bugbounty",
+   "bugcrowd",
+   "claude",
+   "claude-code"
+  ],
+  "trending": [
+   [
+    "2026-11-16",
+    5,
+    98
+   ]
+  ]
+ },
  "garrytan/gbrain": {
   "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
   "first_seen": "2026-11-09",
@@ -636,6 +739,32 @@
     "2026-11-09",
     6,
     215
+   ]
+  ]
+ },
+ "getarcaneapp/arcane": {
+  "description": "Modern Docker Management, Designed for Everyone",
+  "first_seen": "2026-11-16",
+  "homepage": "https://getarcane.app",
+  "language": "Go",
+  "last_seen": "2026-11-16",
+  "stars_first": 8414,
+  "status": "actief",
+  "topics": [
+   "docker",
+   "docker-management",
+   "self-hosted",
+   "sveltekit",
+   "typescript",
+   "go",
+   "compose",
+   "docker-compose"
+  ],
+  "trending": [
+   [
+    "2026-11-16",
+    6,
+    31
    ]
   ]
  },
@@ -681,6 +810,43 @@
     "2026-11-10",
     5,
     453
+   ]
+  ]
+ },
+ "google-labs-code/stitch-skills": {
+  "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+  "first_seen": "2026-11-16",
+  "homepage": "https://stitch.withgoogle.com/docs/mcp/setup",
+  "language": "TypeScript",
+  "last_seen": "2026-11-16",
+  "stars_first": 9577,
+  "status": "actief",
+  "topics": [],
+  "trending": [
+   [
+    "2026-11-16",
+    8,
+    247
+   ]
+  ]
+ },
+ "google-research/paper-orchestra": {
+  "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
+  "first_seen": "2026-11-16",
+  "homepage": "https://yiwen-song.github.io/paper_orchestra/",
+  "language": "Python",
+  "last_seen": "2026-11-16",
+  "stars_first": 1012,
+  "status": "actief",
+  "topics": [
+   "ai-research-assistant",
+   "multi-agent-systems"
+  ],
+  "trending": [
+   [
+    "2026-11-16",
+    12,
+    306
    ]
   ]
  },
@@ -742,6 +908,32 @@
     "2026-11-11",
     8,
     640
+   ]
+  ]
+ },
+ "kajisho5/ffmpeg-skill": {
+  "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
+  "first_seen": "2026-11-16",
+  "homepage": "https://www.npmjs.com/package/ffmpeg-skill",
+  "language": "Python",
+  "last_seen": "2026-11-16",
+  "stars_first": 6132,
+  "status": "actief",
+  "topics": [
+   "audio-processing",
+   "captions",
+   "ffmpeg",
+   "subtitles",
+   "video",
+   "video-editing",
+   "agent-skills",
+   "ai-agents"
+  ],
+  "trending": [
+   [
+    "2026-11-16",
+    15,
+    331
    ]
   ]
  },
@@ -939,6 +1131,31 @@
     "2026-11-09",
     11,
     1589
+   ]
+  ]
+ },
+ "mvanhorn/last30days-skill": {
+  "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+  "first_seen": "2026-11-16",
+  "language": "Python",
+  "last_seen": "2026-11-16",
+  "stars_first": 67825,
+  "status": "actief",
+  "topics": [
+   "ai-prompts",
+   "claude",
+   "claude-code",
+   "reddit",
+   "twitter",
+   "hackernews",
+   "polymarket",
+   "research"
+  ],
+  "trending": [
+   [
+    "2026-11-16",
+    9,
+    122
    ]
   ]
  },
@@ -1189,6 +1406,27 @@
    ]
   ]
  },
+ "sveltejs/svelte": {
+  "description": "web development for the rest of us",
+  "first_seen": "2026-11-16",
+  "homepage": "https://svelte.dev",
+  "language": "JavaScript",
+  "last_seen": "2026-11-16",
+  "stars_first": 88799,
+  "status": "actief",
+  "topics": [
+   "template",
+   "ui",
+   "compiler"
+  ],
+  "trending": [
+   [
+    "2026-11-16",
+    14,
+    58
+   ]
+  ]
+ },
  "tailscale/tailcat": {
   "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
   "first_seen": "2026-11-13",
@@ -1262,7 +1500,7 @@
   "first_seen": "2026-11-13",
   "homepage": "https://tradermonty.github.io/claude-trading-skills/",
   "language": "Python",
-  "last_seen": "2026-11-15",
+  "last_seen": "2026-11-16",
   "stars_first": 3867,
   "status": "actief",
   "topics": [],
@@ -1281,6 +1519,11 @@
     "2026-11-15",
     3,
     707
+   ],
+   [
+    "2026-11-16",
+    4,
+    841
    ]
   ]
  },
