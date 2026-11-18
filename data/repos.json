@@ -86,7 +86,7 @@
   "first_seen": "2026-11-16",
   "homepage": "https://deanchen.me/jiangshan-map/",
   "language": "JavaScript",
-  "last_seen": "2026-11-16",
+  "last_seen": "2026-11-18",
   "stars_first": 6478,
   "status": "actief",
   "topics": [
@@ -104,6 +104,11 @@
     "2026-11-16",
     7,
     285
+   ],
+   [
+    "2026-11-18",
+    17,
+    991
    ]
   ]
  },
@@ -141,6 +146,23 @@
     "2026-11-15",
     2,
     1220
+   ]
+  ]
+ },
+ "HKUDS/CLI-Anything": {
+  "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+  "first_seen": "2026-11-18",
+  "homepage": "https://clianything.cc/",
+  "language": "Python",
+  "last_seen": "2026-11-18",
+  "stars_first": 59355,
+  "status": "actief",
+  "topics": [],
+  "trending": [
+   [
+    "2026-11-18",
+    3,
+    384
    ]
   ]
  },
@@ -197,11 +219,11 @@
   ]
  },
  "NVIDIA/SkillEvaluator": {
-  "description": "Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
+  "description": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
   "first_seen": "2026-11-16",
   "homepage": "https://docs.nvidia.com/skills/skillevaluator/",
   "language": "Python",
-  "last_seen": "2026-11-16",
+  "last_seen": "2026-11-18",
   "stars_first": 2227,
   "status": "actief",
   "topics": [
@@ -219,6 +241,11 @@
     "2026-11-16",
     10,
     122
+   ],
+   [
+    "2026-11-18",
+    6,
+    869
    ]
   ]
  },
@@ -388,7 +415,7 @@
   "first_seen": "2026-11-17",
   "homepage": "https://ecc.tools",
   "language": "JavaScript",
-  "last_seen": "2026-11-17",
+  "last_seen": "2026-11-18",
   "stars_first": 305029,
   "status": "actief",
   "topics": [
@@ -406,6 +433,11 @@
     "2026-11-17",
     13,
     902
+   ],
+   [
+    "2026-11-18",
+    16,
+    1109
    ]
   ]
  },
@@ -540,6 +572,32 @@
    ]
   ]
  },
+ "appwrite/appwrite": {
+  "description": "The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more",
+  "first_seen": "2026-11-18",
+  "homepage": "https://appwrite.io",
+  "language": "TypeScript",
+  "last_seen": "2026-11-18",
+  "stars_first": 58133,
+  "status": "actief",
+  "topics": [
+   "appwrite",
+   "docker",
+   "backend-as-a-service",
+   "javascript",
+   "flutter",
+   "backend",
+   "firebase",
+   "self-hosted"
+  ],
+  "trending": [
+   [
+    "2026-11-18",
+    13,
+    239
+   ]
+  ]
+ },
  "ashhart/TensorFold": {
   "description": "LLM Inference Engine for Metal, CUDA and Vulkan.",
   "first_seen": "2026-11-12",
@@ -596,6 +654,28 @@
     "2026-11-08",
     10,
     350
+   ]
+  ]
+ },
+ "astral-sh/uv": {
+  "description": "An extremely fast Python package and project manager, written in Rust.",
+  "first_seen": "2026-11-18",
+  "homepage": "https://docs.astral.sh/uv",
+  "language": "Rust",
+  "last_seen": "2026-11-18",
+  "stars_first": 92130,
+  "status": "actief",
+  "topics": [
+   "packaging",
+   "python",
+   "resolver",
+   "uv"
+  ],
+  "trending": [
+   [
+    "2026-11-18",
+    8,
+    260
    ]
   ]
  },
@@ -691,7 +771,7 @@
   "description": "Cursor plugin specification and official plugins",
   "first_seen": "2026-11-17",
   "language": "TypeScript",
-  "last_seen": "2026-11-17",
+  "last_seen": "2026-11-18",
   "stars_first": 16751,
   "status": "actief",
   "topics": [],
@@ -700,6 +780,11 @@
     "2026-11-17",
     8,
     196
+   ],
+   [
+    "2026-11-18",
+    2,
+    315
    ]
   ]
  },
@@ -772,7 +857,7 @@
   "first_seen": "2026-11-16",
   "homepage": "https://elementalsouls.github.io/Claude-BugHunter",
   "language": "Python",
-  "last_seen": "2026-11-17",
+  "last_seen": "2026-11-18",
   "stars_first": 7062,
   "status": "actief",
   "topics": [
@@ -795,6 +880,11 @@
     "2026-11-17",
     1,
     1007
+   ],
+   [
+    "2026-11-18",
+    1,
+    2322
    ]
   ]
  },
@@ -819,7 +909,7 @@
   "first_seen": "2026-11-16",
   "homepage": "https://getarcane.app",
   "language": "Go",
-  "last_seen": "2026-11-17",
+  "last_seen": "2026-11-18",
   "stars_first": 8414,
   "status": "actief",
   "topics": [
@@ -842,6 +932,11 @@
     "2026-11-17",
     6,
     654
+   ],
+   [
+    "2026-11-18",
+    5,
+    547
    ]
   ]
  },
@@ -895,7 +990,7 @@
   "first_seen": "2026-11-16",
   "homepage": "https://stitch.withgoogle.com/docs/mcp/setup",
   "language": "TypeScript",
-  "last_seen": "2026-11-17",
+  "last_seen": "2026-11-18",
   "stars_first": 9577,
   "status": "actief",
   "topics": [],
@@ -909,6 +1004,11 @@
     "2026-11-17",
     7,
     350
+   ],
+   [
+    "2026-11-18",
+    10,
+    369
    ]
   ]
  },
@@ -917,7 +1017,7 @@
   "first_seen": "2026-11-16",
   "homepage": "https://yiwen-song.github.io/paper_orchestra/",
   "language": "Python",
-  "last_seen": "2026-11-17",
+  "last_seen": "2026-11-18",
   "stars_first": 1012,
   "status": "actief",
   "topics": [
@@ -934,6 +1034,11 @@
     "2026-11-17",
     15,
     1175
+   ],
+   [
+    "2026-11-18",
+    9,
+    1529
    ]
   ]
  },
@@ -1015,6 +1120,25 @@
     "2026-11-17",
     14,
     188
+   ]
+  ]
+ },
+ "jquery/jquery": {
+  "description": "jQuery JavaScript Library",
+  "first_seen": "2026-11-18",
+  "homepage": "https://jquery.com",
+  "language": "JavaScript",
+  "last_seen": "2026-11-18",
+  "stars_first": 59981,
+  "status": "actief",
+  "topics": [
+   "jquery"
+  ],
+  "trending": [
+   [
+    "2026-11-18",
+    12,
+    268
    ]
   ]
  },
@@ -1245,7 +1369,7 @@
   "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
   "first_seen": "2026-11-16",
   "language": "Python",
-  "last_seen": "2026-11-17",
+  "last_seen": "2026-11-18",
   "stars_first": 67825,
   "status": "actief",
   "topics": [
@@ -1268,6 +1392,37 @@
     "2026-11-17",
     2,
     772
+   ],
+   [
+    "2026-11-18",
+    4,
+    1062
+   ]
+  ]
+ },
+ "n8n-io/n8n": {
+  "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+  "first_seen": "2026-11-18",
+  "homepage": "https://n8n.io",
+  "language": "TypeScript",
+  "last_seen": "2026-11-18",
+  "stars_first": 210856,
+  "status": "actief",
+  "topics": [
+   "automation",
+   "ipaas",
+   "n8n",
+   "workflow",
+   "typescript",
+   "self-hosted",
+   "integrations",
+   "workflow-automation"
+  ],
+  "trending": [
+   [
+    "2026-11-18",
+    18,
+    315
    ]
   ]
  },
@@ -1301,7 +1456,7 @@
   "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
   "first_seen": "2026-11-12",
   "language": "Shell",
-  "last_seen": "2026-11-12",
+  "last_seen": "2026-11-18",
   "stars_first": 95929,
   "status": "actief",
   "topics": [
@@ -1319,6 +1474,11 @@
     "2026-11-12",
     3,
     79
+   ],
+   [
+    "2026-11-18",
+    7,
+    199
    ]
   ]
  },
@@ -1326,7 +1486,7 @@
   "description": "An agentic skills framework & software development methodology that works.",
   "first_seen": "2026-11-17",
   "language": "Shell",
-  "last_seen": "2026-11-17",
+  "last_seen": "2026-11-18",
   "stars_first": 318985,
   "status": "actief",
   "topics": [
@@ -1344,6 +1504,11 @@
     "2026-11-17",
     9,
     1905
+   ],
+   [
+    "2026-11-18",
+    15,
+    823
    ]
   ]
  },
@@ -1385,6 +1550,32 @@
     "2026-11-14",
     3,
     599
+   ]
+  ]
+ },
+ "openvinotoolkit/openvino": {
+  "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+  "first_seen": "2026-11-18",
+  "homepage": "https://docs.openvino.ai",
+  "language": "C++",
+  "last_seen": "2026-11-18",
+  "stars_first": 11222,
+  "status": "actief",
+  "topics": [
+   "inference",
+   "deep-learning",
+   "openvino",
+   "ai",
+   "computer-vision",
+   "diffusion-models",
+   "generative-ai",
+   "llm-inference"
+  ],
+  "trending": [
+   [
+    "2026-11-18",
+    14,
+    18
    ]
   ]
  },
@@ -1431,6 +1622,26 @@
     "2026-11-08",
     7,
     322
+   ]
+  ]
+ },
+ "punkpeye/awesome-mcp-servers": {
+  "description": "A collection of MCP servers.",
+  "first_seen": "2026-11-18",
+  "homepage": "https://glama.ai/mcp/servers",
+  "language": null,
+  "last_seen": "2026-11-18",
+  "stars_first": 97867,
+  "status": "actief",
+  "topics": [
+   "ai",
+   "mcp"
+  ],
+  "trending": [
+   [
+    "2026-11-18",
+    20,
+    52
    ]
   ]
  },
@@ -1543,12 +1754,38 @@
    ]
   ]
  },
+ "solidjs/solid": {
+  "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
+  "first_seen": "2026-11-18",
+  "homepage": "https://solidjs.com",
+  "language": "TypeScript",
+  "last_seen": "2026-11-18",
+  "stars_first": 36350,
+  "status": "actief",
+  "topics": [
+   "javascript",
+   "performance",
+   "solid",
+   "proxies",
+   "declarative",
+   "fine-grained",
+   "jsx",
+   "reactive"
+  ],
+  "trending": [
+   [
+    "2026-11-18",
+    19,
+    37
+   ]
+  ]
+ },
  "sveltejs/svelte": {
   "description": "web development for the rest of us",
   "first_seen": "2026-11-16",
   "homepage": "https://svelte.dev",
   "language": "JavaScript",
-  "last_seen": "2026-11-17",
+  "last_seen": "2026-11-18",
   "stars_first": 88799,
   "status": "actief",
   "topics": [
@@ -1566,6 +1803,11 @@
     "2026-11-17",
     12,
     533
+   ],
+   [
+    "2026-11-18",
+    11,
+    694
    ]
   ]
  },
