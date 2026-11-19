@@ -154,7 +154,7 @@
   "first_seen": "2026-11-18",
   "homepage": "https://clianything.cc/",
   "language": "Python",
-  "last_seen": "2026-11-18",
+  "last_seen": "2026-11-19",
   "stars_first": 59355,
   "status": "actief",
   "topics": [],
@@ -163,6 +163,11 @@
     "2026-11-18",
     3,
     384
+   ],
+   [
+    "2026-11-19",
+    3,
+    899
    ]
   ]
  },
@@ -333,6 +338,58 @@
     "2026-11-11",
     10,
     39
+   ]
+  ]
+ },
+ "Tracer-Cloud/opensre": {
+  "description": "The open-source agent for CI/CD reliability.",
+  "first_seen": "2026-11-19",
+  "homepage": "https://opensre.com",
+  "language": "Python",
+  "last_seen": "2026-11-19",
+  "stars_first": 12914,
+  "status": "actief",
+  "topics": [
+   "alerting",
+   "datadog",
+   "grafana",
+   "observability",
+   "remediation",
+   "root-cause-analysis",
+   "site-reliability-engineering",
+   "slack"
+  ],
+  "trending": [
+   [
+    "2026-11-19",
+    13,
+    25
+   ]
+  ]
+ },
+ "XiaoYouChR/Ghost-Downloader-3": {
+  "description": "The only downloader you need. 下载器的集大成者。",
+  "first_seen": "2026-11-19",
+  "homepage": "https://gd.xychr.com/",
+  "language": "Python",
+  "last_seen": "2026-11-19",
+  "stars_first": 12298,
+  "status": "actief",
+  "topics": [
+   "downloader",
+   "pyside6",
+   "python",
+   "qt",
+   "software",
+   "streaming",
+   "async",
+   "asyncio"
+  ],
+  "trending": [
+   [
+    "2026-11-19",
+    15,
+    432
    ]
   ]
  },
@@ -746,6 +803,32 @@
    ]
   ]
  },
+ "cathrynlavery/diagram-design": {
+  "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+  "first_seen": "2026-11-19",
+  "homepage": "https://diagramdesign.dev",
+  "language": "HTML",
+  "last_seen": "2026-11-19",
+  "stars_first": 68369,
+  "status": "actief",
+  "topics": [
+   "agent-skills",
+   "claude-code",
+   "codex",
+   "data-visualization",
+   "diagrams",
+   "drawio",
+   "mermaid",
+   "svg"
+  ],
+  "trending": [
+   [
+    "2026-11-19",
+    9,
+    332
+   ]
+  ]
+ },
  "cloudflare/security-audit-skill": {
   "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
   "first_seen": "2026-11-07",
@@ -771,7 +854,7 @@
   "description": "Cursor plugin specification and official plugins",
   "first_seen": "2026-11-17",
   "language": "TypeScript",
-  "last_seen": "2026-11-18",
+  "last_seen": "2026-11-19",
   "stars_first": 16751,
   "status": "actief",
   "topics": [],
@@ -785,6 +868,11 @@
     "2026-11-18",
     2,
     315
+   ],
+   [
+    "2026-11-19",
+    5,
+    383
    ]
   ]
  },
@@ -857,7 +945,7 @@
   "first_seen": "2026-11-16",
   "homepage": "https://elementalsouls.github.io/Claude-BugHunter",
   "language": "Python",
-  "last_seen": "2026-11-18",
+  "last_seen": "2026-11-19",
   "stars_first": 7062,
   "status": "actief",
   "topics": [
@@ -885,6 +973,37 @@
     "2026-11-18",
     1,
     2322
+   ],
+   [
+    "2026-11-19",
+    1,
+    1353
+   ]
+  ]
+ },
+ "firecrawl/firecrawl": {
+  "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.",
+  "first_seen": "2026-11-19",
+  "homepage": "https://firecrawl.dev",
+  "language": "TypeScript",
+  "last_seen": "2026-11-19",
+  "stars_first": 203595,
+  "status": "actief",
+  "topics": [
+   "ai",
+   "crawler",
+   "markdown",
+   "scraper",
+   "html-to-markdown",
+   "llm",
+   "scraping",
+   "web-crawler"
+  ],
+  "trending": [
+   [
+    "2026-11-19",
+    6,
+    795
    ]
   ]
  },
@@ -990,7 +1109,7 @@
   "first_seen": "2026-11-16",
   "homepage": "https://stitch.withgoogle.com/docs/mcp/setup",
   "language": "TypeScript",
-  "last_seen": "2026-11-18",
+  "last_seen": "2026-11-19",
   "stars_first": 9577,
   "status": "actief",
   "topics": [],
@@ -1009,6 +1128,11 @@
     "2026-11-18",
     10,
     369
+   ],
+   [
+    "2026-11-19",
+    11,
+    303
    ]
   ]
  },
@@ -1104,11 +1228,11 @@
   ]
  },
  "jingyaogong/minimind": {
-  "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
+  "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
   "first_seen": "2026-11-17",
   "homepage": "https://jingyaogong.github.io/minimind",
   "language": "Python",
-  "last_seen": "2026-11-17",
+  "last_seen": "2026-11-19",
   "stars_first": 65689,
   "status": "actief",
   "topics": [
@@ -1120,6 +1244,11 @@
     "2026-11-17",
     14,
     188
+   ],
+   [
+    "2026-11-19",
+    4,
+    687
    ]
   ]
  },
@@ -1365,11 +1494,37 @@
    ]
   ]
  },
+ "mjmirza/app-store-compliance": {
+  "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 117 documented rejection patterns and fixes, privacy manifest and Data safety checks, 95 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
+  "first_seen": "2026-11-19",
+  "homepage": "https://mjmirza.github.io/app-store-compliance/",
+  "language": "Shell",
+  "last_seen": "2026-11-19",
+  "stars_first": 1509,
+  "status": "actief",
+  "topics": [
+   "android",
+   "app-store-review",
+   "google-play",
+   "ios",
+   "app-review-guidelines",
+   "app-store-rejection",
+   "accessibility",
+   "ai-agents"
+  ],
+  "trending": [
+   [
+    "2026-11-19",
+    12,
+    542
+   ]
+  ]
+ },
  "mvanhorn/last30days-skill": {
   "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
   "first_seen": "2026-11-16",
   "language": "Python",
-  "last_seen": "2026-11-18",
+  "last_seen": "2026-11-19",
   "stars_first": 67825,
   "status": "actief",
   "topics": [
@@ -1397,6 +1552,11 @@
     "2026-11-18",
     4,
     1062
+   ],
+   [
+    "2026-11-19",
+    10,
+    952
    ]
   ]
  },
@@ -1423,6 +1583,32 @@
     "2026-11-18",
     18,
     315
+   ]
+  ]
+ },
+ "nginx/nginx": {
+  "description": "The official NGINX Open Source repository.",
+  "first_seen": "2026-11-19",
+  "homepage": "https://nginx.org/",
+  "language": "C",
+  "last_seen": "2026-11-19",
+  "stars_first": 32232,
+  "status": "actief",
+  "topics": [
+   "content-cache",
+   "load-balancer",
+   "reverse-proxy",
+   "web-server",
+   "http",
+   "https",
+   "quic",
+   "tls"
+  ],
+  "trending": [
+   [
+    "2026-11-19",
+    7,
+    66
    ]
   ]
  },
@@ -1486,7 +1672,7 @@
   "description": "An agentic skills framework & software development methodology that works.",
   "first_seen": "2026-11-17",
   "language": "Shell",
-  "last_seen": "2026-11-18",
+  "last_seen": "2026-11-19",
   "stars_first": 318985,
   "status": "actief",
   "topics": [
@@ -1509,6 +1695,11 @@
     "2026-11-18",
     15,
     823
+   ],
+   [
+    "2026-11-19",
+    2,
+    2029
    ]
   ]
  },
@@ -1558,7 +1749,7 @@
   "first_seen": "2026-11-18",
   "homepage": "https://docs.openvino.ai",
   "language": "C++",
-  "last_seen": "2026-11-18",
+  "last_seen": "2026-11-19",
   "stars_first": 11222,
   "status": "actief",
   "topics": [
@@ -1576,6 +1767,11 @@
     "2026-11-18",
     14,
     18
+   ],
+   [
+    "2026-11-19",
+    8,
+    246
    ]
   ]
  },
@@ -1863,6 +2059,32 @@
    ]
   ]
  },
+ "toeverything/AFFiNE": {
+  "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
+  "first_seen": "2026-11-19",
+  "homepage": "https://affine.pro",
+  "language": "TypeScript",
+  "last_seen": "2026-11-19",
+  "stars_first": 74821,
+  "status": "actief",
+  "topics": [
+   "editor",
+   "crdt",
+   "knowledge-base",
+   "markdown",
+   "miro",
+   "notion",
+   "rust",
+   "rust-lang"
+  ],
+  "trending": [
+   [
+    "2026-11-19",
+    14,
+    170
+   ]
+  ]
+ },
  "tokio-rs/topcoat": {
   "description": "A batteries-included framework for building web apps",
   "first_seen": "2026-11-10",
@@ -2014,6 +2236,32 @@
     "2026-11-08",
     13,
     1114
+   ]
+  ]
+ },
+ "zhouxiaoka/autoclip": {
+  "description": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
+  "first_seen": "2026-11-19",
+  "homepage": "https://zhouxiaoka.github.io/autoclip_intro/",
+  "language": "Python",
+  "last_seen": "2026-11-19",
+  "stars_first": 10897,
+  "status": "actief",
+  "topics": [
+   "ai-video-editor",
+   "ai-agent",
+   "content-repurposing",
+   "desktop-app",
+   "douyin",
+   "instagram-reels",
+   "mcp",
+   "open-source"
+  ],
+  "trending": [
+   [
+    "2026-11-19",
+    16,
+    110
    ]
   ]
  }
