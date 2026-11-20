@@ -154,7 +154,7 @@
   "first_seen": "2026-11-18",
   "homepage": "https://clianything.cc/",
   "language": "Python",
-  "last_seen": "2026-11-19",
+  "last_seen": "2026-11-20",
   "stars_first": 59355,
   "status": "actief",
   "topics": [],
@@ -168,6 +168,11 @@
     "2026-11-19",
     3,
     899
+   ],
+   [
+    "2026-11-20",
+    3,
+    774
    ]
   ]
  },
@@ -346,7 +351,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://opensre.com",
   "language": "Python",
-  "last_seen": "2026-11-19",
+  "last_seen": "2026-11-20",
   "stars_first": 12914,
   "status": "actief",
   "topics": [
@@ -364,6 +369,11 @@
     "2026-11-19",
     13,
     25
+   ],
+   [
+    "2026-11-20",
+    13,
+    465
    ]
   ]
  },
@@ -372,7 +382,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://gd.xychr.com/",
   "language": "Python",
-  "last_seen": "2026-11-19",
+  "last_seen": "2026-11-20",
   "stars_first": 12298,
   "status": "actief",
   "topics": [
@@ -390,6 +400,11 @@
     "2026-11-19",
     15,
     432
+   ],
+   [
+    "2026-11-20",
+    15,
+    1082
    ]
   ]
  },
@@ -808,7 +823,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://diagramdesign.dev",
   "language": "HTML",
-  "last_seen": "2026-11-19",
+  "last_seen": "2026-11-20",
   "stars_first": 68369,
   "status": "actief",
   "topics": [
@@ -826,6 +841,11 @@
     "2026-11-19",
     9,
     332
+   ],
+   [
+    "2026-11-20",
+    9,
+    634
    ]
   ]
  },
@@ -854,7 +874,7 @@
   "description": "Cursor plugin specification and official plugins",
   "first_seen": "2026-11-17",
   "language": "TypeScript",
-  "last_seen": "2026-11-19",
+  "last_seen": "2026-11-20",
   "stars_first": 16751,
   "status": "actief",
   "topics": [],
@@ -873,6 +893,11 @@
     "2026-11-19",
     5,
     383
+   ],
+   [
+    "2026-11-20",
+    5,
+    292
    ]
   ]
  },
@@ -945,7 +970,7 @@
   "first_seen": "2026-11-16",
   "homepage": "https://elementalsouls.github.io/Claude-BugHunter",
   "language": "Python",
-  "last_seen": "2026-11-19",
+  "last_seen": "2026-11-20",
   "stars_first": 7062,
   "status": "actief",
   "topics": [
@@ -978,6 +1003,11 @@
     "2026-11-19",
     1,
     1353
+   ],
+   [
+    "2026-11-20",
+    1,
+    1349
    ]
   ]
  },
@@ -986,7 +1016,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://firecrawl.dev",
   "language": "TypeScript",
-  "last_seen": "2026-11-19",
+  "last_seen": "2026-11-20",
   "stars_first": 203595,
   "status": "actief",
   "topics": [
@@ -1004,6 +1034,11 @@
     "2026-11-19",
     6,
     795
+   ],
+   [
+    "2026-11-20",
+    6,
+    1226
    ]
   ]
  },
@@ -1109,7 +1144,7 @@
   "first_seen": "2026-11-16",
   "homepage": "https://stitch.withgoogle.com/docs/mcp/setup",
   "language": "TypeScript",
-  "last_seen": "2026-11-19",
+  "last_seen": "2026-11-20",
   "stars_first": 9577,
   "status": "actief",
   "topics": [],
@@ -1133,6 +1168,11 @@
     "2026-11-19",
     11,
     303
+   ],
+   [
+    "2026-11-20",
+    11,
+    315
    ]
   ]
  },
@@ -1232,7 +1272,7 @@
   "first_seen": "2026-11-17",
   "homepage": "https://jingyaogong.github.io/minimind",
   "language": "Python",
-  "last_seen": "2026-11-19",
+  "last_seen": "2026-11-20",
   "stars_first": 65689,
   "status": "actief",
   "topics": [
@@ -1249,6 +1289,11 @@
     "2026-11-19",
     4,
     687
+   ],
+   [
+    "2026-11-20",
+    4,
+    841
    ]
   ]
  },
@@ -1499,7 +1544,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://mjmirza.github.io/app-store-compliance/",
   "language": "Shell",
-  "last_seen": "2026-11-19",
+  "last_seen": "2026-11-20",
   "stars_first": 1509,
   "status": "actief",
   "topics": [
@@ -1517,6 +1562,11 @@
     "2026-11-19",
     12,
     542
+   ],
+   [
+    "2026-11-20",
+    12,
+    874
    ]
   ]
  },
@@ -1524,7 +1574,7 @@
   "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
   "first_seen": "2026-11-16",
   "language": "Python",
-  "last_seen": "2026-11-19",
+  "last_seen": "2026-11-20",
   "stars_first": 67825,
   "status": "actief",
   "topics": [
@@ -1557,6 +1607,11 @@
     "2026-11-19",
     10,
     952
+   ],
+   [
+    "2026-11-20",
+    10,
+    685
    ]
   ]
  },
@@ -1591,7 +1646,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://nginx.org/",
   "language": "C",
-  "last_seen": "2026-11-19",
+  "last_seen": "2026-11-20",
   "stars_first": 32232,
   "status": "actief",
   "topics": [
@@ -1609,6 +1664,11 @@
     "2026-11-19",
     7,
     66
+   ],
+   [
+    "2026-11-20",
+    7,
+    246
    ]
   ]
  },
@@ -1672,7 +1732,7 @@
   "description": "An agentic skills framework & software development methodology that works.",
   "first_seen": "2026-11-17",
   "language": "Shell",
-  "last_seen": "2026-11-19",
+  "last_seen": "2026-11-20",
   "stars_first": 318985,
   "status": "actief",
   "topics": [
@@ -1700,6 +1760,11 @@
     "2026-11-19",
     2,
     2029
+   ],
+   [
+    "2026-11-20",
+    2,
+    888
    ]
   ]
  },
@@ -1749,7 +1814,7 @@
   "first_seen": "2026-11-18",
   "homepage": "https://docs.openvino.ai",
   "language": "C++",
-  "last_seen": "2026-11-19",
+  "last_seen": "2026-11-20",
   "stars_first": 11222,
   "status": "actief",
   "topics": [
@@ -1772,6 +1837,11 @@
     "2026-11-19",
     8,
     246
+   ],
+   [
+    "2026-11-20",
+    8,
+    219
    ]
   ]
  },
@@ -2064,7 +2134,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://affine.pro",
   "language": "TypeScript",
-  "last_seen": "2026-11-19",
+  "last_seen": "2026-11-20",
   "stars_first": 74821,
   "status": "actief",
   "topics": [
@@ -2082,6 +2152,11 @@
     "2026-11-19",
     14,
     170
+   ],
+   [
+    "2026-11-20",
+    14,
+    686
    ]
   ]
  },
@@ -2244,7 +2319,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://zhouxiaoka.github.io/autoclip_intro/",
   "language": "Python",
-  "last_seen": "2026-11-19",
+  "last_seen": "2026-11-20",
   "stars_first": 10897,
   "status": "actief",
   "topics": [
@@ -2262,6 +2337,11 @@
     "2026-11-19",
     16,
     110
+   ],
+   [
+    "2026-11-20",
+    16,
+    983
    ]
   ]
  }
