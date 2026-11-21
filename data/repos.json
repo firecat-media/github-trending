@@ -154,7 +154,7 @@
   "first_seen": "2026-11-18",
   "homepage": "https://clianything.cc/",
   "language": "Python",
-  "last_seen": "2026-11-20",
+  "last_seen": "2026-11-21",
   "stars_first": 59355,
   "status": "actief",
   "topics": [],
@@ -173,6 +173,11 @@
     "2026-11-20",
     3,
     774
+   ],
+   [
+    "2026-11-21",
+    3,
+    767
    ]
   ]
  },
@@ -351,7 +356,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://opensre.com",
   "language": "Python",
-  "last_seen": "2026-11-20",
+  "last_seen": "2026-11-21",
   "stars_first": 12914,
   "status": "actief",
   "topics": [
@@ -374,6 +379,11 @@
     "2026-11-20",
     13,
     465
+   ],
+   [
+    "2026-11-21",
+    13,
+    450
    ]
   ]
  },
@@ -382,7 +392,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://gd.xychr.com/",
   "language": "Python",
-  "last_seen": "2026-11-20",
+  "last_seen": "2026-11-21",
   "stars_first": 12298,
   "status": "actief",
   "topics": [
@@ -405,6 +415,11 @@
     "2026-11-20",
     15,
     1082
+   ],
+   [
+    "2026-11-21",
+    15,
+    774
    ]
   ]
  },
@@ -823,7 +838,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://diagramdesign.dev",
   "language": "HTML",
-  "last_seen": "2026-11-20",
+  "last_seen": "2026-11-21",
   "stars_first": 68369,
   "status": "actief",
   "topics": [
@@ -846,6 +861,11 @@
     "2026-11-20",
     9,
     634
+   ],
+   [
+    "2026-11-21",
+    9,
+    582
    ]
   ]
  },
@@ -874,7 +894,7 @@
   "description": "Cursor plugin specification and official plugins",
   "first_seen": "2026-11-17",
   "language": "TypeScript",
-  "last_seen": "2026-11-20",
+  "last_seen": "2026-11-21",
   "stars_first": 16751,
   "status": "actief",
   "topics": [],
@@ -898,6 +918,11 @@
     "2026-11-20",
     5,
     292
+   ],
+   [
+    "2026-11-21",
+    5,
+    261
    ]
   ]
  },
@@ -970,7 +995,7 @@
   "first_seen": "2026-11-16",
   "homepage": "https://elementalsouls.github.io/Claude-BugHunter",
   "language": "Python",
-  "last_seen": "2026-11-20",
+  "last_seen": "2026-11-21",
   "stars_first": 7062,
   "status": "actief",
   "topics": [
@@ -1008,15 +1033,20 @@
     "2026-11-20",
     1,
     1349
+   ],
+   [
+    "2026-11-21",
+    1,
+    1794
    ]
   ]
  },
  "firecrawl/firecrawl": {
-  "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.",
+  "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
   "first_seen": "2026-11-19",
   "homepage": "https://firecrawl.dev",
   "language": "TypeScript",
-  "last_seen": "2026-11-20",
+  "last_seen": "2026-11-21",
   "stars_first": 203595,
   "status": "actief",
   "topics": [
@@ -1039,6 +1069,11 @@
     "2026-11-20",
     6,
     1226
+   ],
+   [
+    "2026-11-21",
+    6,
+    999
    ]
   ]
  },
@@ -1144,7 +1179,7 @@
   "first_seen": "2026-11-16",
   "homepage": "https://stitch.withgoogle.com/docs/mcp/setup",
   "language": "TypeScript",
-  "last_seen": "2026-11-20",
+  "last_seen": "2026-11-21",
   "stars_first": 9577,
   "status": "actief",
   "topics": [],
@@ -1173,6 +1208,11 @@
     "2026-11-20",
     11,
     315
+   ],
+   [
+    "2026-11-21",
+    11,
+    324
    ]
   ]
  },
@@ -1272,7 +1312,7 @@
   "first_seen": "2026-11-17",
   "homepage": "https://jingyaogong.github.io/minimind",
   "language": "Python",
-  "last_seen": "2026-11-20",
+  "last_seen": "2026-11-21",
   "stars_first": 65689,
   "status": "actief",
   "topics": [
@@ -1294,6 +1334,11 @@
     "2026-11-20",
     4,
     841
+   ],
+   [
+    "2026-11-21",
+    4,
+    488
    ]
   ]
  },
@@ -1544,7 +1589,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://mjmirza.github.io/app-store-compliance/",
   "language": "Shell",
-  "last_seen": "2026-11-20",
+  "last_seen": "2026-11-21",
   "stars_first": 1509,
   "status": "actief",
   "topics": [
@@ -1567,6 +1612,11 @@
     "2026-11-20",
     12,
     874
+   ],
+   [
+    "2026-11-21",
+    12,
+    724
    ]
   ]
  },
@@ -1574,7 +1624,7 @@
   "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
   "first_seen": "2026-11-16",
   "language": "Python",
-  "last_seen": "2026-11-20",
+  "last_seen": "2026-11-21",
   "stars_first": 67825,
   "status": "actief",
   "topics": [
@@ -1612,6 +1662,11 @@
     "2026-11-20",
     10,
     685
+   ],
+   [
+    "2026-11-21",
+    10,
+    566
    ]
   ]
  },
@@ -1646,7 +1701,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://nginx.org/",
   "language": "C",
-  "last_seen": "2026-11-20",
+  "last_seen": "2026-11-21",
   "stars_first": 32232,
   "status": "actief",
   "topics": [
@@ -1669,6 +1724,11 @@
     "2026-11-20",
     7,
     246
+   ],
+   [
+    "2026-11-21",
+    7,
+    195
    ]
   ]
  },
@@ -1732,7 +1792,7 @@
   "description": "An agentic skills framework & software development methodology that works.",
   "first_seen": "2026-11-17",
   "language": "Shell",
-  "last_seen": "2026-11-20",
+  "last_seen": "2026-11-21",
   "stars_first": 318985,
   "status": "actief",
   "topics": [
@@ -1765,6 +1825,11 @@
     "2026-11-20",
     2,
     888
+   ],
+   [
+    "2026-11-21",
+    2,
+    884
    ]
   ]
  },
@@ -1814,7 +1879,7 @@
   "first_seen": "2026-11-18",
   "homepage": "https://docs.openvino.ai",
   "language": "C++",
-  "last_seen": "2026-11-20",
+  "last_seen": "2026-11-21",
   "stars_first": 11222,
   "status": "actief",
   "topics": [
@@ -1842,6 +1907,11 @@
     "2026-11-20",
     8,
     219
+   ],
+   [
+    "2026-11-21",
+    8,
+    202
    ]
   ]
  },
@@ -2134,7 +2204,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://affine.pro",
   "language": "TypeScript",
-  "last_seen": "2026-11-20",
+  "last_seen": "2026-11-21",
   "stars_first": 74821,
   "status": "actief",
   "topics": [
@@ -2157,6 +2227,11 @@
     "2026-11-20",
     14,
     686
+   ],
+   [
+    "2026-11-21",
+    14,
+    577
    ]
   ]
  },
@@ -2319,7 +2394,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://zhouxiaoka.github.io/autoclip_intro/",
   "language": "Python",
-  "last_seen": "2026-11-20",
+  "last_seen": "2026-11-21",
   "stars_first": 10897,
   "status": "actief",
   "topics": [
@@ -2342,6 +2417,11 @@
     "2026-11-20",
     16,
     983
+   ],
+   [
+    "2026-11-21",
+    16,
+    689
    ]
   ]
  }
