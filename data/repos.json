@@ -154,7 +154,7 @@
   "first_seen": "2026-11-18",
   "homepage": "https://clianything.cc/",
   "language": "Python",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "stars_first": 59355,
   "status": "actief",
   "topics": [],
@@ -178,6 +178,11 @@
     "2026-11-21",
     3,
     767
+   ],
+   [
+    "2026-11-22",
+    3,
+    687
    ]
   ]
  },
@@ -356,7 +361,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://opensre.com",
   "language": "Python",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "stars_first": 12914,
   "status": "actief",
   "topics": [
@@ -384,6 +389,11 @@
     "2026-11-21",
     13,
     450
+   ],
+   [
+    "2026-11-22",
+    13,
+    395
    ]
   ]
  },
@@ -392,7 +402,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://gd.xychr.com/",
   "language": "Python",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "stars_first": 12298,
   "status": "actief",
   "topics": [
@@ -420,6 +430,11 @@
     "2026-11-21",
     15,
     774
+   ],
+   [
+    "2026-11-22",
+    15,
+    690
    ]
   ]
  },
@@ -838,7 +853,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://diagramdesign.dev",
   "language": "HTML",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "stars_first": 68369,
   "status": "actief",
   "topics": [
@@ -866,6 +881,11 @@
     "2026-11-21",
     9,
     582
+   ],
+   [
+    "2026-11-22",
+    9,
+    513
    ]
   ]
  },
@@ -894,7 +914,7 @@
   "description": "Cursor plugin specification and official plugins",
   "first_seen": "2026-11-17",
   "language": "TypeScript",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "stars_first": 16751,
   "status": "actief",
   "topics": [],
@@ -923,6 +943,11 @@
     "2026-11-21",
     5,
     261
+   ],
+   [
+    "2026-11-22",
+    5,
+    301
    ]
   ]
  },
@@ -995,7 +1020,7 @@
   "first_seen": "2026-11-16",
   "homepage": "https://elementalsouls.github.io/Claude-BugHunter",
   "language": "Python",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "stars_first": 7062,
   "status": "actief",
   "topics": [
@@ -1038,6 +1063,11 @@
     "2026-11-21",
     1,
     1794
+   ],
+   [
+    "2026-11-22",
+    1,
+    1721
    ]
   ]
  },
@@ -1046,7 +1076,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://firecrawl.dev",
   "language": "TypeScript",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "stars_first": 203595,
   "status": "actief",
   "topics": [
@@ -1074,6 +1104,11 @@
     "2026-11-21",
     6,
     999
+   ],
+   [
+    "2026-11-22",
+    6,
+    910
    ]
   ]
  },
@@ -1179,7 +1214,7 @@
   "first_seen": "2026-11-16",
   "homepage": "https://stitch.withgoogle.com/docs/mcp/setup",
   "language": "TypeScript",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "stars_first": 9577,
   "status": "actief",
   "topics": [],
@@ -1213,6 +1248,11 @@
     "2026-11-21",
     11,
     324
+   ],
+   [
+    "2026-11-22",
+    11,
+    516
    ]
   ]
  },
@@ -1312,7 +1352,7 @@
   "first_seen": "2026-11-17",
   "homepage": "https://jingyaogong.github.io/minimind",
   "language": "Python",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "stars_first": 65689,
   "status": "actief",
   "topics": [
@@ -1339,6 +1379,11 @@
     "2026-11-21",
     4,
     488
+   ],
+   [
+    "2026-11-22",
+    4,
+    473
    ]
   ]
  },
@@ -1585,11 +1630,11 @@
   ]
  },
  "mjmirza/app-store-compliance": {
-  "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 117 documented rejection patterns and fixes, privacy manifest and Data safety checks, 95 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
+  "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 111 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
   "first_seen": "2026-11-19",
   "homepage": "https://mjmirza.github.io/app-store-compliance/",
   "language": "Shell",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "stars_first": 1509,
   "status": "actief",
   "topics": [
@@ -1617,6 +1662,11 @@
     "2026-11-21",
     12,
     724
+   ],
+   [
+    "2026-11-22",
+    12,
+    617
    ]
   ]
  },
@@ -1624,7 +1674,7 @@
   "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
   "first_seen": "2026-11-16",
   "language": "Python",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "stars_first": 67825,
   "status": "actief",
   "topics": [
@@ -1667,6 +1717,11 @@
     "2026-11-21",
     10,
     566
+   ],
+   [
+    "2026-11-22",
+    10,
+    673
    ]
   ]
  },
@@ -1701,7 +1756,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://nginx.org/",
   "language": "C",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "stars_first": 32232,
   "status": "actief",
   "topics": [
@@ -1729,6 +1784,11 @@
     "2026-11-21",
     7,
     195
+   ],
+   [
+    "2026-11-22",
+    7,
+    168
    ]
   ]
  },
@@ -1792,7 +1852,7 @@
   "description": "An agentic skills framework & software development methodology that works.",
   "first_seen": "2026-11-17",
   "language": "Shell",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "stars_first": 318985,
   "status": "actief",
   "topics": [
@@ -1830,6 +1890,11 @@
     "2026-11-21",
     2,
     884
+   ],
+   [
+    "2026-11-22",
+    2,
+    785
    ]
   ]
  },
@@ -1879,7 +1944,7 @@
   "first_seen": "2026-11-18",
   "homepage": "https://docs.openvino.ai",
   "language": "C++",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "stars_first": 11222,
   "status": "actief",
   "topics": [
@@ -1912,6 +1977,11 @@
     "2026-11-21",
     8,
     202
+   ],
+   [
+    "2026-11-22",
+    8,
+    155
    ]
   ]
  },
@@ -2204,7 +2274,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://affine.pro",
   "language": "TypeScript",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "stars_first": 74821,
   "status": "actief",
   "topics": [
@@ -2232,6 +2302,11 @@
     "2026-11-21",
     14,
     577
+   ],
+   [
+    "2026-11-22",
+    14,
+    537
    ]
   ]
  },
@@ -2394,7 +2469,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://zhouxiaoka.github.io/autoclip_intro/",
   "language": "Python",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "stars_first": 10897,
   "status": "actief",
   "topics": [
@@ -2422,6 +2497,11 @@
     "2026-11-21",
     16,
     689
+   ],
+   [
+    "2026-11-22",
+    16,
+    640
    ]
   ]
  }
