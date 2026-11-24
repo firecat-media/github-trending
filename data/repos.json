@@ -154,7 +154,7 @@
   "first_seen": "2026-11-18",
   "homepage": "https://clianything.cc/",
   "language": "Python",
-  "last_seen": "2026-11-23",
+  "last_seen": "2026-11-24",
   "stars_first": 59355,
   "status": "actief",
   "topics": [],
@@ -188,6 +188,11 @@
     "2026-11-23",
     3,
     783
+   ],
+   [
+    "2026-11-24",
+    3,
+    1075
    ]
   ]
  },
@@ -366,7 +371,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://opensre.com",
   "language": "Python",
-  "last_seen": "2026-11-23",
+  "last_seen": "2026-11-24",
   "stars_first": 12914,
   "status": "actief",
   "topics": [
@@ -404,6 +409,11 @@
     "2026-11-23",
     13,
     438
+   ],
+   [
+    "2026-11-24",
+    13,
+    408
    ]
   ]
  },
@@ -412,7 +422,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://gd.xychr.com/",
   "language": "Python",
-  "last_seen": "2026-11-23",
+  "last_seen": "2026-11-24",
   "stars_first": 12298,
   "status": "actief",
   "topics": [
@@ -450,6 +460,11 @@
     "2026-11-23",
     15,
     1078
+   ],
+   [
+    "2026-11-24",
+    15,
+    1102
    ]
   ]
  },
@@ -868,7 +883,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://diagramdesign.dev",
   "language": "HTML",
-  "last_seen": "2026-11-23",
+  "last_seen": "2026-11-24",
   "stars_first": 68369,
   "status": "actief",
   "topics": [
@@ -906,6 +921,11 @@
     "2026-11-23",
     9,
     624
+   ],
+   [
+    "2026-11-24",
+    9,
+    794
    ]
   ]
  },
@@ -934,7 +954,7 @@
   "description": "Cursor plugin specification and official plugins",
   "first_seen": "2026-11-17",
   "language": "TypeScript",
-  "last_seen": "2026-11-23",
+  "last_seen": "2026-11-24",
   "stars_first": 16751,
   "status": "actief",
   "topics": [],
@@ -973,6 +993,11 @@
     "2026-11-23",
     5,
     395
+   ],
+   [
+    "2026-11-24",
+    5,
+    359
    ]
   ]
  },
@@ -1041,11 +1066,11 @@
   ]
  },
  "elementalsouls/Claude-BugHunter": {
-  "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+  "description": "A Claude Code skill bundle for bug hunting and external red-team work - 84 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
   "first_seen": "2026-11-16",
   "homepage": "https://elementalsouls.github.io/Claude-BugHunter",
   "language": "Python",
-  "last_seen": "2026-11-23",
+  "last_seen": "2026-11-24",
   "stars_first": 7062,
   "status": "actief",
   "topics": [
@@ -1098,6 +1123,11 @@
     "2026-11-23",
     1,
     2037
+   ],
+   [
+    "2026-11-24",
+    1,
+    1833
    ]
   ]
  },
@@ -1106,7 +1136,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://firecrawl.dev",
   "language": "TypeScript",
-  "last_seen": "2026-11-23",
+  "last_seen": "2026-11-24",
   "stars_first": 203595,
   "status": "actief",
   "topics": [
@@ -1144,6 +1174,11 @@
     "2026-11-23",
     6,
     920
+   ],
+   [
+    "2026-11-24",
+    6,
+    990
    ]
   ]
  },
@@ -1249,7 +1284,7 @@
   "first_seen": "2026-11-16",
   "homepage": "https://stitch.withgoogle.com/docs/mcp/setup",
   "language": "TypeScript",
-  "last_seen": "2026-11-23",
+  "last_seen": "2026-11-24",
   "stars_first": 9577,
   "status": "actief",
   "topics": [],
@@ -1293,6 +1328,11 @@
     "2026-11-23",
     11,
     425
+   ],
+   [
+    "2026-11-24",
+    11,
+    401
    ]
   ]
  },
@@ -1392,7 +1432,7 @@
   "first_seen": "2026-11-17",
   "homepage": "https://jingyaogong.github.io/minimind",
   "language": "Python",
-  "last_seen": "2026-11-23",
+  "last_seen": "2026-11-24",
   "stars_first": 65689,
   "status": "actief",
   "topics": [
@@ -1429,6 +1469,11 @@
     "2026-11-23",
     4,
     828
+   ],
+   [
+    "2026-11-24",
+    4,
+    727
    ]
   ]
  },
@@ -1679,7 +1724,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://mjmirza.github.io/app-store-compliance/",
   "language": "Shell",
-  "last_seen": "2026-11-23",
+  "last_seen": "2026-11-24",
   "stars_first": 1509,
   "status": "actief",
   "topics": [
@@ -1717,6 +1762,11 @@
     "2026-11-23",
     12,
     755
+   ],
+   [
+    "2026-11-24",
+    12,
+    936
    ]
   ]
  },
@@ -1724,7 +1774,7 @@
   "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
   "first_seen": "2026-11-16",
   "language": "Python",
-  "last_seen": "2026-11-23",
+  "last_seen": "2026-11-24",
   "stars_first": 67825,
   "status": "actief",
   "topics": [
@@ -1777,6 +1827,11 @@
     "2026-11-23",
     10,
     790
+   ],
+   [
+    "2026-11-24",
+    10,
+    695
    ]
   ]
  },
@@ -1811,7 +1866,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://nginx.org/",
   "language": "C",
-  "last_seen": "2026-11-23",
+  "last_seen": "2026-11-24",
   "stars_first": 32232,
   "status": "actief",
   "topics": [
@@ -1849,6 +1904,11 @@
     "2026-11-23",
     7,
     174
+   ],
+   [
+    "2026-11-24",
+    7,
+    158
    ]
   ]
  },
@@ -1912,7 +1972,7 @@
   "description": "An agentic skills framework & software development methodology that works.",
   "first_seen": "2026-11-17",
   "language": "Shell",
-  "last_seen": "2026-11-23",
+  "last_seen": "2026-11-24",
   "stars_first": 318985,
   "status": "actief",
   "topics": [
@@ -1960,6 +2020,11 @@
     "2026-11-23",
     2,
     838
+   ],
+   [
+    "2026-11-24",
+    2,
+    1006
    ]
   ]
  },
@@ -2009,7 +2074,7 @@
   "first_seen": "2026-11-18",
   "homepage": "https://docs.openvino.ai",
   "language": "C++",
-  "last_seen": "2026-11-23",
+  "last_seen": "2026-11-24",
   "stars_first": 11222,
   "status": "actief",
   "topics": [
@@ -2052,6 +2117,11 @@
     "2026-11-23",
     8,
     183
+   ],
+   [
+    "2026-11-24",
+    8,
+    187
    ]
   ]
  },
@@ -2344,7 +2414,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://affine.pro",
   "language": "TypeScript",
-  "last_seen": "2026-11-23",
+  "last_seen": "2026-11-24",
   "stars_first": 74821,
   "status": "actief",
   "topics": [
@@ -2382,6 +2452,11 @@
     "2026-11-23",
     14,
     593
+   ],
+   [
+    "2026-11-24",
+    14,
+    589
    ]
   ]
  },
@@ -2544,7 +2619,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://zhouxiaoka.github.io/autoclip_intro/",
   "language": "Python",
-  "last_seen": "2026-11-23",
+  "last_seen": "2026-11-24",
   "stars_first": 10897,
   "status": "actief",
   "topics": [
@@ -2582,6 +2657,11 @@
     "2026-11-23",
     16,
     908
+   ],
+   [
+    "2026-11-24",
+    16,
+    981
    ]
   ]
  }
