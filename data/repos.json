@@ -154,7 +154,7 @@
   "first_seen": "2026-11-18",
   "homepage": "https://clianything.cc/",
   "language": "Python",
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "stars_first": 59355,
   "status": "actief",
   "topics": [],
@@ -193,6 +193,11 @@
     "2026-11-24",
     3,
     1075
+   ],
+   [
+    "2026-11-25",
+    3,
+    1094
    ]
   ]
  },
@@ -371,7 +376,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://opensre.com",
   "language": "Python",
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "stars_first": 12914,
   "status": "actief",
   "topics": [
@@ -414,6 +419,11 @@
     "2026-11-24",
     13,
     408
+   ],
+   [
+    "2026-11-25",
+    13,
+    343
    ]
   ]
  },
@@ -422,7 +432,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://gd.xychr.com/",
   "language": "Python",
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "stars_first": 12298,
   "status": "actief",
   "topics": [
@@ -465,6 +475,11 @@
     "2026-11-24",
     15,
     1102
+   ],
+   [
+    "2026-11-25",
+    15,
+    950
    ]
   ]
  },
@@ -883,7 +898,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://diagramdesign.dev",
   "language": "HTML",
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "stars_first": 68369,
   "status": "actief",
   "topics": [
@@ -926,6 +941,11 @@
     "2026-11-24",
     9,
     794
+   ],
+   [
+    "2026-11-25",
+    9,
+    1133
    ]
   ]
  },
@@ -954,7 +974,7 @@
   "description": "Cursor plugin specification and official plugins",
   "first_seen": "2026-11-17",
   "language": "TypeScript",
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "stars_first": 16751,
   "status": "actief",
   "topics": [],
@@ -998,6 +1018,11 @@
     "2026-11-24",
     5,
     359
+   ],
+   [
+    "2026-11-25",
+    5,
+    408
    ]
   ]
  },
@@ -1070,7 +1095,7 @@
   "first_seen": "2026-11-16",
   "homepage": "https://elementalsouls.github.io/Claude-BugHunter",
   "language": "Python",
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "stars_first": 7062,
   "status": "actief",
   "topics": [
@@ -1128,6 +1153,11 @@
     "2026-11-24",
     1,
     1833
+   ],
+   [
+    "2026-11-25",
+    1,
+    1644
    ]
   ]
  },
@@ -1136,7 +1166,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://firecrawl.dev",
   "language": "TypeScript",
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "stars_first": 203595,
   "status": "actief",
   "topics": [
@@ -1179,6 +1209,11 @@
     "2026-11-24",
     6,
     990
+   ],
+   [
+    "2026-11-25",
+    6,
+    1131
    ]
   ]
  },
@@ -1284,7 +1319,7 @@
   "first_seen": "2026-11-16",
   "homepage": "https://stitch.withgoogle.com/docs/mcp/setup",
   "language": "TypeScript",
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "stars_first": 9577,
   "status": "actief",
   "topics": [],
@@ -1333,6 +1368,11 @@
     "2026-11-24",
     11,
     401
+   ],
+   [
+    "2026-11-25",
+    11,
+    352
    ]
   ]
  },
@@ -1432,7 +1472,7 @@
   "first_seen": "2026-11-17",
   "homepage": "https://jingyaogong.github.io/minimind",
   "language": "Python",
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "stars_first": 65689,
   "status": "actief",
   "topics": [
@@ -1474,6 +1514,11 @@
     "2026-11-24",
     4,
     727
+   ],
+   [
+    "2026-11-25",
+    4,
+    828
    ]
   ]
  },
@@ -1724,7 +1769,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://mjmirza.github.io/app-store-compliance/",
   "language": "Shell",
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "stars_first": 1509,
   "status": "actief",
   "topics": [
@@ -1767,6 +1812,11 @@
     "2026-11-24",
     12,
     936
+   ],
+   [
+    "2026-11-25",
+    12,
+    853
    ]
   ]
  },
@@ -1774,7 +1824,7 @@
   "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
   "first_seen": "2026-11-16",
   "language": "Python",
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "stars_first": 67825,
   "status": "actief",
   "topics": [
@@ -1832,6 +1882,11 @@
     "2026-11-24",
     10,
     695
+   ],
+   [
+    "2026-11-25",
+    10,
+    950
    ]
   ]
  },
@@ -1866,7 +1921,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://nginx.org/",
   "language": "C",
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "stars_first": 32232,
   "status": "actief",
   "topics": [
@@ -1909,6 +1964,11 @@
     "2026-11-24",
     7,
     158
+   ],
+   [
+    "2026-11-25",
+    7,
+    174
    ]
   ]
  },
@@ -1972,7 +2032,7 @@
   "description": "An agentic skills framework & software development methodology that works.",
   "first_seen": "2026-11-17",
   "language": "Shell",
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "stars_first": 318985,
   "status": "actief",
   "topics": [
@@ -2025,6 +2085,11 @@
     "2026-11-24",
     2,
     1006
+   ],
+   [
+    "2026-11-25",
+    2,
+    902
    ]
   ]
  },
@@ -2074,7 +2139,7 @@
   "first_seen": "2026-11-18",
   "homepage": "https://docs.openvino.ai",
   "language": "C++",
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "stars_first": 11222,
   "status": "actief",
   "topics": [
@@ -2122,6 +2187,11 @@
     "2026-11-24",
     8,
     187
+   ],
+   [
+    "2026-11-25",
+    8,
+    188
    ]
   ]
  },
@@ -2414,7 +2484,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://affine.pro",
   "language": "TypeScript",
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "stars_first": 74821,
   "status": "actief",
   "topics": [
@@ -2457,6 +2527,11 @@
     "2026-11-24",
     14,
     589
+   ],
+   [
+    "2026-11-25",
+    14,
+    578
    ]
   ]
  },
@@ -2619,7 +2694,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://zhouxiaoka.github.io/autoclip_intro/",
   "language": "Python",
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "stars_first": 10897,
   "status": "actief",
   "topics": [
@@ -2662,6 +2737,11 @@
     "2026-11-24",
     16,
     981
+   ],
+   [
+    "2026-11-25",
+    16,
+    868
    ]
   ]
  }
