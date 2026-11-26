@@ -154,7 +154,7 @@
   "first_seen": "2026-11-18",
   "homepage": "https://clianything.cc/",
   "language": "Python",
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "stars_first": 59355,
   "status": "actief",
   "topics": [],
@@ -198,6 +198,11 @@
     "2026-11-25",
     3,
     1094
+   ],
+   [
+    "2026-11-26",
+    3,
+    744
    ]
   ]
  },
@@ -376,7 +381,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://opensre.com",
   "language": "Python",
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "stars_first": 12914,
   "status": "actief",
   "topics": [
@@ -424,6 +429,11 @@
     "2026-11-25",
     13,
     343
+   ],
+   [
+    "2026-11-26",
+    13,
+    325
    ]
   ]
  },
@@ -432,7 +442,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://gd.xychr.com/",
   "language": "Python",
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "stars_first": 12298,
   "status": "actief",
   "topics": [
@@ -480,6 +490,11 @@
     "2026-11-25",
     15,
     950
+   ],
+   [
+    "2026-11-26",
+    15,
+    887
    ]
   ]
  },
@@ -898,7 +913,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://diagramdesign.dev",
   "language": "HTML",
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "stars_first": 68369,
   "status": "actief",
   "topics": [
@@ -946,6 +961,11 @@
     "2026-11-25",
     9,
     1133
+   ],
+   [
+    "2026-11-26",
+    9,
+    951
    ]
   ]
  },
@@ -974,7 +994,7 @@
   "description": "Cursor plugin specification and official plugins",
   "first_seen": "2026-11-17",
   "language": "TypeScript",
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "stars_first": 16751,
   "status": "actief",
   "topics": [],
@@ -1023,6 +1043,11 @@
     "2026-11-25",
     5,
     408
+   ],
+   [
+    "2026-11-26",
+    5,
+    268
    ]
   ]
  },
@@ -1091,11 +1116,11 @@
   ]
  },
  "elementalsouls/Claude-BugHunter": {
-  "description": "A Claude Code skill bundle for bug hunting and external red-team work - 84 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+  "description": "A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
   "first_seen": "2026-11-16",
-  "homepage": "https://elementalsouls.github.io/Claude-BugHunter",
+  "homepage": "https://elementalsouls.github.io/Claude-BugHunter/",
   "language": "Python",
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "stars_first": 7062,
   "status": "actief",
   "topics": [
@@ -1158,6 +1183,11 @@
     "2026-11-25",
     1,
     1644
+   ],
+   [
+    "2026-11-26",
+    1,
+    1600
    ]
   ]
  },
@@ -1166,7 +1196,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://firecrawl.dev",
   "language": "TypeScript",
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "stars_first": 203595,
   "status": "actief",
   "topics": [
@@ -1214,6 +1244,11 @@
     "2026-11-25",
     6,
     1131
+   ],
+   [
+    "2026-11-26",
+    6,
+    1042
    ]
   ]
  },
@@ -1319,7 +1354,7 @@
   "first_seen": "2026-11-16",
   "homepage": "https://stitch.withgoogle.com/docs/mcp/setup",
   "language": "TypeScript",
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "stars_first": 9577,
   "status": "actief",
   "topics": [],
@@ -1373,6 +1408,11 @@
     "2026-11-25",
     11,
     352
+   ],
+   [
+    "2026-11-26",
+    11,
+    308
    ]
   ]
  },
@@ -1472,7 +1512,7 @@
   "first_seen": "2026-11-17",
   "homepage": "https://jingyaogong.github.io/minimind",
   "language": "Python",
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "stars_first": 65689,
   "status": "actief",
   "topics": [
@@ -1519,6 +1559,11 @@
     "2026-11-25",
     4,
     828
+   ],
+   [
+    "2026-11-26",
+    4,
+    701
    ]
   ]
  },
@@ -1765,11 +1810,11 @@
   ]
  },
  "mjmirza/app-store-compliance": {
-  "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 112 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
+  "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 125 documented rejection patterns and fixes, privacy manifest and Data safety checks, 117 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
   "first_seen": "2026-11-19",
   "homepage": "https://mjmirza.github.io/app-store-compliance/",
   "language": "Shell",
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "stars_first": 1509,
   "status": "actief",
   "topics": [
@@ -1817,6 +1862,11 @@
     "2026-11-25",
     12,
     853
+   ],
+   [
+    "2026-11-26",
+    12,
+    561
    ]
   ]
  },
@@ -1824,7 +1874,7 @@
   "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
   "first_seen": "2026-11-16",
   "language": "Python",
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "stars_first": 67825,
   "status": "actief",
   "topics": [
@@ -1887,6 +1937,11 @@
     "2026-11-25",
     10,
     950
+   ],
+   [
+    "2026-11-26",
+    10,
+    755
    ]
   ]
  },
@@ -1921,7 +1976,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://nginx.org/",
   "language": "C",
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "stars_first": 32232,
   "status": "actief",
   "topics": [
@@ -1969,6 +2024,11 @@
     "2026-11-25",
     7,
     174
+   ],
+   [
+    "2026-11-26",
+    7,
+    150
    ]
   ]
  },
@@ -2032,7 +2092,7 @@
   "description": "An agentic skills framework & software development methodology that works.",
   "first_seen": "2026-11-17",
   "language": "Shell",
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "stars_first": 318985,
   "status": "actief",
   "topics": [
@@ -2090,6 +2150,11 @@
     "2026-11-25",
     2,
     902
+   ],
+   [
+    "2026-11-26",
+    2,
+    853
    ]
   ]
  },
@@ -2139,7 +2204,7 @@
   "first_seen": "2026-11-18",
   "homepage": "https://docs.openvino.ai",
   "language": "C++",
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "stars_first": 11222,
   "status": "actief",
   "topics": [
@@ -2192,6 +2257,11 @@
     "2026-11-25",
     8,
     188
+   ],
+   [
+    "2026-11-26",
+    8,
+    176
    ]
   ]
  },
@@ -2484,7 +2554,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://affine.pro",
   "language": "TypeScript",
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "stars_first": 74821,
   "status": "actief",
   "topics": [
@@ -2532,6 +2602,11 @@
     "2026-11-25",
     14,
     578
+   ],
+   [
+    "2026-11-26",
+    14,
+    521
    ]
   ]
  },
@@ -2690,11 +2765,11 @@
   ]
  },
  "zhouxiaoka/autoclip": {
-  "description": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
+  "description": "The open-source OpusClip alternative — local-first AI clipping & MCP server, zero subscriptions. AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。",
   "first_seen": "2026-11-19",
   "homepage": "https://zhouxiaoka.github.io/autoclip_intro/",
   "language": "Python",
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "stars_first": 10897,
   "status": "actief",
   "topics": [
@@ -2742,6 +2817,11 @@
     "2026-11-25",
     16,
     868
+   ],
+   [
+    "2026-11-26",
+    16,
+    770
    ]
   ]
  }
