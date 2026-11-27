@@ -154,7 +154,7 @@
   "first_seen": "2026-11-18",
   "homepage": "https://clianything.cc/",
   "language": "Python",
-  "last_seen": "2026-11-26",
+  "last_seen": "2026-11-27",
   "stars_first": 59355,
   "status": "actief",
   "topics": [],
@@ -203,6 +203,11 @@
     "2026-11-26",
     3,
     744
+   ],
+   [
+    "2026-11-27",
+    3,
+    668
    ]
   ]
  },
@@ -381,7 +386,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://opensre.com",
   "language": "Python",
-  "last_seen": "2026-11-26",
+  "last_seen": "2026-11-27",
   "stars_first": 12914,
   "status": "actief",
   "topics": [
@@ -434,6 +439,11 @@
     "2026-11-26",
     13,
     325
+   ],
+   [
+    "2026-11-27",
+    13,
+    326
    ]
   ]
  },
@@ -442,7 +452,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://gd.xychr.com/",
   "language": "Python",
-  "last_seen": "2026-11-26",
+  "last_seen": "2026-11-27",
   "stars_first": 12298,
   "status": "actief",
   "topics": [
@@ -495,6 +505,11 @@
     "2026-11-26",
     15,
     887
+   ],
+   [
+    "2026-11-27",
+    15,
+    843
    ]
   ]
  },
@@ -913,7 +928,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://diagramdesign.dev",
   "language": "HTML",
-  "last_seen": "2026-11-26",
+  "last_seen": "2026-11-27",
   "stars_first": 68369,
   "status": "actief",
   "topics": [
@@ -966,6 +981,11 @@
     "2026-11-26",
     9,
     951
+   ],
+   [
+    "2026-11-27",
+    9,
+    731
    ]
   ]
  },
@@ -994,7 +1014,7 @@
   "description": "Cursor plugin specification and official plugins",
   "first_seen": "2026-11-17",
   "language": "TypeScript",
-  "last_seen": "2026-11-26",
+  "last_seen": "2026-11-27",
   "stars_first": 16751,
   "status": "actief",
   "topics": [],
@@ -1048,6 +1068,11 @@
     "2026-11-26",
     5,
     268
+   ],
+   [
+    "2026-11-27",
+    5,
+    242
    ]
   ]
  },
@@ -1120,7 +1145,7 @@
   "first_seen": "2026-11-16",
   "homepage": "https://elementalsouls.github.io/Claude-BugHunter/",
   "language": "Python",
-  "last_seen": "2026-11-26",
+  "last_seen": "2026-11-27",
   "stars_first": 7062,
   "status": "actief",
   "topics": [
@@ -1188,6 +1213,11 @@
     "2026-11-26",
     1,
     1600
+   ],
+   [
+    "2026-11-27",
+    1,
+    1615
    ]
   ]
  },
@@ -1196,7 +1226,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://firecrawl.dev",
   "language": "TypeScript",
-  "last_seen": "2026-11-26",
+  "last_seen": "2026-11-27",
   "stars_first": 203595,
   "status": "actief",
   "topics": [
@@ -1249,6 +1279,11 @@
     "2026-11-26",
     6,
     1042
+   ],
+   [
+    "2026-11-27",
+    6,
+    833
    ]
   ]
  },
@@ -1354,7 +1389,7 @@
   "first_seen": "2026-11-16",
   "homepage": "https://stitch.withgoogle.com/docs/mcp/setup",
   "language": "TypeScript",
-  "last_seen": "2026-11-26",
+  "last_seen": "2026-11-27",
   "stars_first": 9577,
   "status": "actief",
   "topics": [],
@@ -1413,6 +1448,11 @@
     "2026-11-26",
     11,
     308
+   ],
+   [
+    "2026-11-27",
+    11,
+    311
    ]
   ]
  },
@@ -1512,7 +1552,7 @@
   "first_seen": "2026-11-17",
   "homepage": "https://jingyaogong.github.io/minimind",
   "language": "Python",
-  "last_seen": "2026-11-26",
+  "last_seen": "2026-11-27",
   "stars_first": 65689,
   "status": "actief",
   "topics": [
@@ -1564,6 +1604,11 @@
     "2026-11-26",
     4,
     701
+   ],
+   [
+    "2026-11-27",
+    4,
+    667
    ]
   ]
  },
@@ -1814,7 +1859,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://mjmirza.github.io/app-store-compliance/",
   "language": "Shell",
-  "last_seen": "2026-11-26",
+  "last_seen": "2026-11-27",
   "stars_first": 1509,
   "status": "actief",
   "topics": [
@@ -1867,6 +1912,11 @@
     "2026-11-26",
     12,
     561
+   ],
+   [
+    "2026-11-27",
+    12,
+    531
    ]
   ]
  },
@@ -1874,7 +1924,7 @@
   "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
   "first_seen": "2026-11-16",
   "language": "Python",
-  "last_seen": "2026-11-26",
+  "last_seen": "2026-11-27",
   "stars_first": 67825,
   "status": "actief",
   "topics": [
@@ -1942,6 +1992,11 @@
     "2026-11-26",
     10,
     755
+   ],
+   [
+    "2026-11-27",
+    10,
+    664
    ]
   ]
  },
@@ -1976,7 +2031,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://nginx.org/",
   "language": "C",
-  "last_seen": "2026-11-26",
+  "last_seen": "2026-11-27",
   "stars_first": 32232,
   "status": "actief",
   "topics": [
@@ -2029,6 +2084,11 @@
     "2026-11-26",
     7,
     150
+   ],
+   [
+    "2026-11-27",
+    7,
+    148
    ]
   ]
  },
@@ -2092,7 +2152,7 @@
   "description": "An agentic skills framework & software development methodology that works.",
   "first_seen": "2026-11-17",
   "language": "Shell",
-  "last_seen": "2026-11-26",
+  "last_seen": "2026-11-27",
   "stars_first": 318985,
   "status": "actief",
   "topics": [
@@ -2155,6 +2215,11 @@
     "2026-11-26",
     2,
     853
+   ],
+   [
+    "2026-11-27",
+    2,
+    916
    ]
   ]
  },
@@ -2204,7 +2269,7 @@
   "first_seen": "2026-11-18",
   "homepage": "https://docs.openvino.ai",
   "language": "C++",
-  "last_seen": "2026-11-26",
+  "last_seen": "2026-11-27",
   "stars_first": 11222,
   "status": "actief",
   "topics": [
@@ -2262,6 +2327,11 @@
     "2026-11-26",
     8,
     176
+   ],
+   [
+    "2026-11-27",
+    8,
+    152
    ]
   ]
  },
@@ -2554,7 +2624,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://affine.pro",
   "language": "TypeScript",
-  "last_seen": "2026-11-26",
+  "last_seen": "2026-11-27",
   "stars_first": 74821,
   "status": "actief",
   "topics": [
@@ -2607,6 +2677,11 @@
     "2026-11-26",
     14,
     521
+   ],
+   [
+    "2026-11-27",
+    14,
+    469
    ]
   ]
  },
@@ -2765,11 +2840,11 @@
   ]
  },
  "zhouxiaoka/autoclip": {
-  "description": "The open-source OpusClip alternative — local-first AI clipping & MCP server, zero subscriptions. AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。",
+  "description": "AutoClip｜The open-source OpusClip alternative — local-first AI clipping & MCP server, zero subscriptions. 一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。",
   "first_seen": "2026-11-19",
   "homepage": "https://zhouxiaoka.github.io/autoclip_intro/",
   "language": "Python",
-  "last_seen": "2026-11-26",
+  "last_seen": "2026-11-27",
   "stars_first": 10897,
   "status": "actief",
   "topics": [
@@ -2822,6 +2897,11 @@
     "2026-11-26",
     16,
     770
+   ],
+   [
+    "2026-11-27",
+    16,
+    733
    ]
   ]
  }
