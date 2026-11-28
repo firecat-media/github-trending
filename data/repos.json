@@ -154,7 +154,7 @@
   "first_seen": "2026-11-18",
   "homepage": "https://clianything.cc/",
   "language": "Python",
-  "last_seen": "2026-11-27",
+  "last_seen": "2026-11-28",
   "stars_first": 59355,
   "status": "actief",
   "topics": [],
@@ -208,6 +208,11 @@
     "2026-11-27",
     3,
     668
+   ],
+   [
+    "2026-11-28",
+    3,
+    561
    ]
   ]
  },
@@ -386,7 +391,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://opensre.com",
   "language": "Python",
-  "last_seen": "2026-11-27",
+  "last_seen": "2026-11-28",
   "stars_first": 12914,
   "status": "actief",
   "topics": [
@@ -444,6 +449,11 @@
     "2026-11-27",
     13,
     326
+   ],
+   [
+    "2026-11-28",
+    13,
+    270
    ]
   ]
  },
@@ -452,7 +462,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://gd.xychr.com/",
   "language": "Python",
-  "last_seen": "2026-11-27",
+  "last_seen": "2026-11-28",
   "stars_first": 12298,
   "status": "actief",
   "topics": [
@@ -510,6 +520,11 @@
     "2026-11-27",
     15,
     843
+   ],
+   [
+    "2026-11-28",
+    15,
+    664
    ]
   ]
  },
@@ -928,7 +943,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://diagramdesign.dev",
   "language": "HTML",
-  "last_seen": "2026-11-27",
+  "last_seen": "2026-11-28",
   "stars_first": 68369,
   "status": "actief",
   "topics": [
@@ -986,6 +1001,11 @@
     "2026-11-27",
     9,
     731
+   ],
+   [
+    "2026-11-28",
+    9,
+    499
    ]
   ]
  },
@@ -1014,7 +1034,7 @@
   "description": "Cursor plugin specification and official plugins",
   "first_seen": "2026-11-17",
   "language": "TypeScript",
-  "last_seen": "2026-11-27",
+  "last_seen": "2026-11-28",
   "stars_first": 16751,
   "status": "actief",
   "topics": [],
@@ -1073,6 +1093,11 @@
     "2026-11-27",
     5,
     242
+   ],
+   [
+    "2026-11-28",
+    5,
+    214
    ]
   ]
  },
@@ -1145,7 +1170,7 @@
   "first_seen": "2026-11-16",
   "homepage": "https://elementalsouls.github.io/Claude-BugHunter/",
   "language": "Python",
-  "last_seen": "2026-11-27",
+  "last_seen": "2026-11-28",
   "stars_first": 7062,
   "status": "actief",
   "topics": [
@@ -1218,6 +1243,11 @@
     "2026-11-27",
     1,
     1615
+   ],
+   [
+    "2026-11-28",
+    1,
+    1372
    ]
   ]
  },
@@ -1226,7 +1256,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://firecrawl.dev",
   "language": "TypeScript",
-  "last_seen": "2026-11-27",
+  "last_seen": "2026-11-28",
   "stars_first": 203595,
   "status": "actief",
   "topics": [
@@ -1284,6 +1314,11 @@
     "2026-11-27",
     6,
     833
+   ],
+   [
+    "2026-11-28",
+    6,
+    717
    ]
   ]
  },
@@ -1389,7 +1424,7 @@
   "first_seen": "2026-11-16",
   "homepage": "https://stitch.withgoogle.com/docs/mcp/setup",
   "language": "TypeScript",
-  "last_seen": "2026-11-27",
+  "last_seen": "2026-11-28",
   "stars_first": 9577,
   "status": "actief",
   "topics": [],
@@ -1453,6 +1488,11 @@
     "2026-11-27",
     11,
     311
+   ],
+   [
+    "2026-11-28",
+    11,
+    293
    ]
   ]
  },
@@ -1552,7 +1592,7 @@
   "first_seen": "2026-11-17",
   "homepage": "https://jingyaogong.github.io/minimind",
   "language": "Python",
-  "last_seen": "2026-11-27",
+  "last_seen": "2026-11-28",
   "stars_first": 65689,
   "status": "actief",
   "topics": [
@@ -1609,6 +1649,11 @@
     "2026-11-27",
     4,
     667
+   ],
+   [
+    "2026-11-28",
+    4,
+    391
    ]
   ]
  },
@@ -1859,7 +1904,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://mjmirza.github.io/app-store-compliance/",
   "language": "Shell",
-  "last_seen": "2026-11-27",
+  "last_seen": "2026-11-28",
   "stars_first": 1509,
   "status": "actief",
   "topics": [
@@ -1917,6 +1962,11 @@
     "2026-11-27",
     12,
     531
+   ],
+   [
+    "2026-11-28",
+    12,
+    907
    ]
   ]
  },
@@ -1924,7 +1974,7 @@
   "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
   "first_seen": "2026-11-16",
   "language": "Python",
-  "last_seen": "2026-11-27",
+  "last_seen": "2026-11-28",
   "stars_first": 67825,
   "status": "actief",
   "topics": [
@@ -1997,6 +2047,11 @@
     "2026-11-27",
     10,
     664
+   ],
+   [
+    "2026-11-28",
+    10,
+    519
    ]
   ]
  },
@@ -2031,7 +2086,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://nginx.org/",
   "language": "C",
-  "last_seen": "2026-11-27",
+  "last_seen": "2026-11-28",
   "stars_first": 32232,
   "status": "actief",
   "topics": [
@@ -2089,6 +2144,11 @@
     "2026-11-27",
     7,
     148
+   ],
+   [
+    "2026-11-28",
+    7,
+    131
    ]
   ]
  },
@@ -2152,7 +2212,7 @@
   "description": "An agentic skills framework & software development methodology that works.",
   "first_seen": "2026-11-17",
   "language": "Shell",
-  "last_seen": "2026-11-27",
+  "last_seen": "2026-11-28",
   "stars_first": 318985,
   "status": "actief",
   "topics": [
@@ -2220,6 +2280,11 @@
     "2026-11-27",
     2,
     916
+   ],
+   [
+    "2026-11-28",
+    2,
+    809
    ]
   ]
  },
@@ -2269,7 +2334,7 @@
   "first_seen": "2026-11-18",
   "homepage": "https://docs.openvino.ai",
   "language": "C++",
-  "last_seen": "2026-11-27",
+  "last_seen": "2026-11-28",
   "stars_first": 11222,
   "status": "actief",
   "topics": [
@@ -2332,6 +2397,11 @@
     "2026-11-27",
     8,
     152
+   ],
+   [
+    "2026-11-28",
+    8,
+    111
    ]
   ]
  },
@@ -2624,7 +2694,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://affine.pro",
   "language": "TypeScript",
-  "last_seen": "2026-11-27",
+  "last_seen": "2026-11-28",
   "stars_first": 74821,
   "status": "actief",
   "topics": [
@@ -2682,6 +2752,11 @@
     "2026-11-27",
     14,
     469
+   ],
+   [
+    "2026-11-28",
+    14,
+    495
    ]
   ]
  },
@@ -2844,7 +2919,7 @@
   "first_seen": "2026-11-19",
   "homepage": "https://zhouxiaoka.github.io/autoclip_intro/",
   "language": "Python",
-  "last_seen": "2026-11-27",
+  "last_seen": "2026-11-28",
   "stars_first": 10897,
   "status": "actief",
   "topics": [
@@ -2902,6 +2977,11 @@
     "2026-11-27",
     16,
     733
+   ],
+   [
+    "2026-11-28",
+    16,
+    517
    ]
   ]
  }
